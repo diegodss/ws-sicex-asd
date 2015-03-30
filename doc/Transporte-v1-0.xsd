@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:aem="http://valida.aem.gob.cl" targetNamespace="http://valida.aem.gob.cl" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0" xml:lang="es">
+	<xsd:include schemaLocation="TiposSicex-v1-0.xsd"/>
+	<xsd:include schemaLocation="Transbordo-v1-0.xsd"/>
+	<xsd:include schemaLocation="Manifiesto-v1-0.xsd"/>
+	<xsd:include schemaLocation="Emisor-v1-0.xsd"/>
+	<xsd:annotation>
+		<xsd:documentation> Nombre Esquema: Transporte-v1-0.xsd Esquema: Basal. </xsd:documentation>
+		<xsd:appinfo>
+			<dc:title>Schema Transporte.</dc:title>
+			<dc:subject> .</dc:subject>
+			<dc:creator> Consorsio everis/Crimson Logic. </dc:creator>
+			<dc:contributor>Consorcio everis/Crimson Logic</dc:contributor>
+			<dc:date>2014-12-26</dc:date>
+			<dc:description> Transporte </dc:description>
+			<dc:identifier> http://valida.aem.gob.cl/basales/Transporte-v1-0.xsd </dc:identifier>
+			<dc:format>text/xml</dc:format>
+			<dcterms:created>2014-12-26</dcterms:created>
+			<dc:type>XML Schema</dc:type>
+			<dc:language>es</dc:language>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:complexType name="TransporteType">
+		<xsd:sequence>
+			<xsd:element name="PesoBruto" type="aem:SicexNumericoDiez" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: s/n16
+                        Descripcion: Transporte->
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="CantidadMercancia" type="aem:SicexNumericoDiez" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: s/n17
+                        Descripcion: Transporte->
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="MatriculaRemolque" type="aem:SicexStringCuatro" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: s/n77
+                        Descripcion: Transporte->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="Patente" type="aem:SicexStringCinco" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 308
+                        Descripcion: Transporte->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="PaisVehiculo" type="aem:SicexStringCuatro" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: s/n78
+                        Descripcion: Transporte->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="TaraCamion" type="aem:SicexStringCuatro" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: s/n79
+                        Descripcion: Transporte->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="TaraRemolque" type="aem:SicexStringCuatro" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: s/n80
+                        Descripcion: Transporte->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="FechaArribo" type="aem:SicexFechaHora" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: s/n81
+                        Descripcion: Transporte->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="ViaDeTransporte" type="aem:SicexNumericoDos" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 347
+						Descripcion: Transporte-> 
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="GlosaPuertoDeEmbarque" type="aem:SicexStringCuatro" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 348
+						Descripcion: Transporte-> 
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="CodigoPuertoDeEmbarque" type="aem:SicexStringTres" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 349, 21
+						Descripcion: Transporte-> 
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="CodigoDeTransbordo" type="aem:SicexStringUno" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 350, 1032
+						Descripcion: Transporte-> 
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="GlosaPuertoDeDesembarque" type="aem:SicexStringCuatro" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 351
+						Descripcion: Transporte-> 
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="CodigoPuertoDeDesembarque" type="aem:SicexStringTres" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 352
+						Descripcion: Transporte->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="TipoDeCarga" type="aem:SicexStringUno" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: 353
+						Descripcion: Transporte->
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="NombreCompaniaTransporte" type="aem:SicexStringCuatro" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: 354
+						Descripcion: Transporte->
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="CodigoPaisCompaniaTransportadora" type="aem:SicexStringDos" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: 356
+						Descripcion: Transporte->
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="RutCompaniaTransportadora" type="aem:SicexRut" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: 357
+						Descripcion: Transporte->
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="NumeroDocumentoTransporte" type="aem:SicexStringCuatro" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: 375, 19
+						Descripcion: Transporte->
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="FechaDocumentoTransporte" type="aem:SicexFechaHora" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: 376
+						Descripcion: Transporte->
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="FechaEmbarque" type="aem:SicexFechaHora" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: s/n124
+						Descripcion: Transporte->
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="FechaDesembarque" type="aem:SicexFechaHora" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: s/n125
+						Descripcion: Transporte->
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="NombreNave" type="aem:SicexStringCuatro" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: 365
+						Descripcion: Transporte->
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="Ruta" type="aem:SicexStringNueve" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: 14
+						Descripcion: Transporte->
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="TipoMedioTransporte" type="aem:SicexStringCuatro" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: 15
+						Descripcion: Transporte->
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="FechaEstimadaLlegada" type="aem:SicexFechaHora" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: 116
+						Descripcion: Transporte->
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="NombreTransportista" type="aem:SicexStringNueve" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: 305
+						Descripcion: Transporte->
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="TipoNombre" type="aem:SicexStringUno" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: s/n153
+						Descripcion: Transporte->
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="CodigoPaisProcedencia" type="aem:SicexStringDos" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: 20, 317
+						Descripcion: Transporte->
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="RutTransportista" type="aem:SicexRut" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: 306
+						Descripcion: Transporte->
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="GlosaPaisProcedencia" type="aem:SicexStringCuatro" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: s/n128
+						Descripcion: Transporte->
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="OrigenDistintoMenorCincuenta" type="aem:SicexBooleano" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: s/n150
+						Descripcion: Transporte->
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="PaisDistintoMenorCincuenta" type="aem:SicexBooleano" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: s/n151
+						Descripcion: Transporte->
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="Transbordo" type="aem:TransbordoType" minOccurs="0" maxOccurs="99">
+				<xsd:annotation>
+					<xsd:documentation>
+						<!-- Documentar -->
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="Manifiesto" type="aem:ManifiestoType" minOccurs="0" maxOccurs="3">
+				<xsd:annotation>
+					<xsd:documentation>
+						<!-- Documentar -->
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="Emisor" type="aem:EmisorType" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						<!-- Documentar -->
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+		</xsd:sequence>
+		<xsd:attribute name="SchemaVersion" type="xsd:decimal" use="required" fixed="1.0">
+			<xsd:annotation>
+				<xsd:documentation> Version del esquema. Permite la persistencia de la version del
+					esquema en instancias xml (Guia de Desarrollo y Uso De Esquemas De Gobierno v1.1
+					- 5.4.3) </xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
+	</xsd:complexType>
+</xsd:schema>

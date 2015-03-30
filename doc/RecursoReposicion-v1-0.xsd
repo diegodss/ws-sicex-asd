@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:aem="http://valida.aem.gob.cl" targetNamespace="http://valida.aem.gob.cl" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0" xml:lang="es">
+	<xsd:include schemaLocation="TiposSicex-v1-0.xsd"/>
+	<xsd:include schemaLocation="SicexEnum-v1-0.xsd"/>
+	<xsd:annotation>
+		<xsd:documentation> Nombre Esquema: RecursoReposicion-v1-0.xsd Esquema: Basal. </xsd:documentation>
+		<xsd:appinfo>
+			<dc:title>Schema Recurso Reposicion.</dc:title>
+			<dc:subject> .</dc:subject>
+			<dc:creator> Consorsio everis/Crimson Logic. </dc:creator>
+			<dc:contributor>Consorcio everis/Crimson Logic</dc:contributor>
+			<dc:date>2015-01-02</dc:date>
+			<dc:description> Recurso Reposicion </dc:description>
+			<dc:identifier> http://valida.aem.gob.cl/basales/RecursoReposicion-v1-0.xsd </dc:identifier>
+			<dc:format>text/xml</dc:format>
+			<dcterms:created>2015-01-02</dcterms:created>
+			<dc:type>XML Schema</dc:type>
+			<dc:language>es</dc:language>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:complexType name="RecursoReposicionType">
+		<xsd:sequence>
+			<xsd:element name="IdRecursoReposicion" type="aem:SicexStringCinco" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 1476
+						Descripcion: Recurso Reposicion-> 
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="CodigoResolucion" type="aem:SicexStringCuatro" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 1477
+						Descripcion: Recurso Reposicion-> 
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="FechaResolucion" type="aem:SicexFechaHora" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 1478
+						Descripcion: Recurso Reposicion-> 
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="Tramitador" type="aem:SicexStringCinco" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 1479
+						Descripcion: Recurso Reposicion-> 
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="Observaciones" type="aem:SicexStringDiez" minOccurs="0" maxOccurs="99">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 1483, s/n52
+						Descripcion: Recurso Reposicion-> 
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="IdSolicitudDocumento" type="aem:SicexStringCuatro" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: s/n56
+						Descripcion: Recurso Reposicion-> 
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="EstadoRecursoReposicion" type="aem:SicexEnum" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 1486
+						Descripcion: Recurso Reposicion-> 
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="IdTramiteSSPP" type="aem:SicexStringCinco" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 72
+						Descripcion: Recurso Reposicion-> 
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="NumeroResolucionRecursoReposicion" type="aem:SicexStringCuatro" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 1484
+						Descripcion: Recurso Reposicion-> 
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="FechaResolucionRecursoReposicion" type="aem:SicexFechaHora" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 1485
+						Descripcion: Recurso Reposicion-> 
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+		</xsd:sequence>
+		<xsd:attribute name="SchemaVersion" type="xsd:decimal" use="required" fixed="1.0">
+			<xsd:annotation>
+				<xsd:documentation> Version del esquema. Permite la persistencia de la version del
+					esquema en instancias xml (Guia de Desarrollo y Uso De Esquemas De Gobierno v1.1
+					- 5.4.3) </xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
+	</xsd:complexType>
+</xsd:schema>

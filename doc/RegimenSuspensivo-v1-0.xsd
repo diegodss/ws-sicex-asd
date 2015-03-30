@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:aem="http://valida.aem.gob.cl" targetNamespace="http://valida.aem.gob.cl" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0" xml:lang="es">
+	<xsd:include schemaLocation="TiposSicex-v1-0.xsd"/>
+	<xsd:annotation>
+		<xsd:documentation> Nombre Esquema: RegimenSuspensivo-v1-0.xsd Esquema: Basal. </xsd:documentation>
+		<xsd:appinfo>
+			<dc:title>Schema RegimenSuspensivo.</dc:title>
+			<dc:subject> .</dc:subject>
+			<dc:creator> Consorsio everis/Crimson Logic. </dc:creator>
+			<dc:contributor>Consorcio everis/Crimson Logic</dc:contributor>
+			<dc:date>2014-12-26</dc:date>
+			<dc:description> Regimen Suspensivo </dc:description>
+			<dc:identifier> http://valida.aem.gob.cl/basales/RegimenSuspensivo-v1-0.xsd </dc:identifier>
+			<dc:format>text/xml</dc:format>
+			<dcterms:created>2014-12-26</dcterms:created>
+			<dc:type>XML Schema</dc:type>
+			<dc:language>es</dc:language>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:complexType name="RegimenSuspensivoType">
+		<xsd:sequence>
+			<xsd:element name="DireccionAlmacenamiento" type="aem:SicexStringCinco" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 401
+						Descripcion: RegimenSuspensivo-> 
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="CodigoComunaAlmacen" type="aem:SicexNumericoTres" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 402
+						Descripcion: RegimenSuspensivo-> 
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="CodigoAduanaDeControl" type="aem:SicexNumericoDos" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 403
+						Descripcion: RegimenSuspensivo-> 
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="PlazoVigencia" type="aem:SicexNumericoCuatro" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 404
+						Descripcion: RegimenSuspensivo-> 
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="IndicadorParcialidad" type="aem:SicexNumericoUno" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 405
+						Descripcion: RegimenSuspensivo-> 
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="NumeroHojasInsumos" type="aem:SicexNumericoTres" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 406
+						Descripcion: RegimenSuspensivo->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="TotalInsumos" type="aem:SicexNumericoDiez" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 407
+						Descripcion: RegimenSuspensivo->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="CodigoAlmacenParticularDatpa" type="aem:SicexNumericoTres" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 408
+						Descripcion: RegimenSuspensivo->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="NumeroDeRegimenSuspensivo" type="aem:SicexStringTres" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 409
+						Descripcion: RegimenSuspensivo->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="FechaRegimenSuspensivo" type="aem:SicexFechaHora" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 410
+						Descripcion: RegimenSuspensivo->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="AduanaRegimenSuspensivo" type="aem:SicexNumericoDos" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 411
+						Descripcion: RegimenSuspensivo->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="NumeroHojasAnexas" type="aem:SicexNumericoTres" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 412
+						Descripcion: RegimenSuspensivo->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="CantidadSecuencias" type="aem:SicexNumericoTres" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 413
+						Descripcion: RegimenSuspensivo->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="Plazo" type="aem:SicexNumericoCuatro" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 414
+						Descripcion: RegimenSuspensivo->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="TipoReingreso" type="aem:SicexStringCinco" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 225
+						Descripcion: RegimenSuspensivo->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="RazonReingreso" type="aem:SicexStringNueve" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion:
+						Descripcion: RegimenSuspensivo-> 226
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+		</xsd:sequence>
+		<xsd:attribute name="SchemaVersion" type="xsd:decimal" use="required" fixed="1.0">
+			<xsd:annotation>
+				<xsd:documentation> Version del esquema. Permite la persistencia de la version del
+					esquema en instancias xml (Guia de Desarrollo y Uso De Esquemas De Gobierno v1.1
+					- 5.4.3) </xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
+	</xsd:complexType>
+</xsd:schema>

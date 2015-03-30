@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Archivo XML de muestra generado con XMLSpy v2015 sp2 (x64) (http://www.altova.com)-->
+<SRIOIUD025Consulta xmlns="http://valida.aem.gob.cl" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:n1="http://www.altova.com/samplexml/other-namespace" SchemaVersion="1" xsi:schemaLocation="http://valida.aem.gob.cl SRIOIUD025Consulta-v1-0.xsd">
+	<Cabecera SchemaVersion="1">
+		<CodigoMensaje>M1.111</CodigoMensaje>
+		<TransaccionId>TRN201501010000000000</TransaccionId>
+		<NumeroVersion>0</NumeroVersion>
+		<Destinatario>SAG</Destinatario>
+		<Remitente>HACIENDA</Remitente>
+		<IdRuce>20150101IMP0000000000</IdRuce>
+		<FechaCreacionRuce>
+			<fechaHoraValida>2001-12-17T09:30:47Z</fechaHoraValida>
+		</FechaCreacionRuce>
+		<EstadoRuce>Finalizado</EstadoRuce>
+		<FechaEstadoRuce>
+			<fechaHoraValida>2001-12-17T09:30:47Z</fechaHoraValida>
+		</FechaEstadoRuce>
+	</Cabecera>
+	<IdentificacionUsuario SchemaVersion="1">
+		<DatosOrganizacion SchemaVersion="1">
+			<RutOrganizacion>
+				<SicexRut>
+					<numero>55768991</numero>
+					<dv>0</dv>
+				</SicexRut>
+			</RutOrganizacion>
+			<NombreOrganizacion>Organizacion Alepo</NombreOrganizacion>
+			<DomicilioOrganizacion>Direccion Organizacion</DomicilioOrganizacion>
+			<GiroComercialOrganizacion>Giro Ventas Productos</GiroComercialOrganizacion>
+			<DatosSuborganizacion SchemaVersion="1">
+				<RutSubOrganizacion>
+					<SicexRut>
+						<numero>34243566</numero>
+						<dv>0</dv>
+					</SicexRut>
+				</RutSubOrganizacion>
+				<NombreSubOrganizacion>SubOrganizacion Casio</NombreSubOrganizacion>
+				<DomicilioSubOrganizacion>Domicilio SubOrganizacion</DomicilioSubOrganizacion>
+				<GiroComercialSubOrganizacion>Giro Servicios</GiroComercialSubOrganizacion>
+			</DatosSuborganizacion>
+		</DatosOrganizacion>
+		<DatosUsuario SchemaVersion="1">
+			<RutUsuario>
+				<SicexRut>
+					<numero>44566788</numero>
+					<dv>0</dv>
+				</SicexRut>
+			</RutUsuario>
+			<Perfil>Perfil Usuario</Perfil>
+			<NombreUsuario>Carlos Paredes</NombreUsuario>
+		</DatosUsuario>
+	</IdentificacionUsuario>
+	<UsoYDisposicion SchemaVersion="1">
+		<IdSolicitud>CODSICEX0002</IdSolicitud>
+		<Mercancia SchemaVersion="1">
+			<Item SchemaVersion="1">
+				<NumeroItem>1</NumeroItem>
+				<Producto SchemaVersion="1">
+					<CodigoProducto>040000000004</CodigoProducto>
+				</Producto>
+				<TomaDeMuestra SchemaVersion="1">
+					<IdPago>193274712</IdPago>
+					<DocumentosAdjuntos>
+						<SicexAdjunto SchemaVersion="1.0">
+							<Cantidad>1</Cantidad>
+							<ArchivoBinario SchemaVersion="1.0">
+								<Nombre>Archivos Adjuntos</Nombre>
+								<TipoContenido>Documentos</TipoContenido>
+								<CantidadBytes>3000</CantidadBytes>
+								<DataCodificada>UjBsR09EbGhjZ0dTQUxNQUFBUUNBRU1tQ1p0dU1GUXhEUzhi</DataCodificada>
+								<Descripcion>Documentos Adjuntos</Descripcion>
+							</ArchivoBinario>
+						</SicexAdjunto>
+					</DocumentosAdjuntos>
+					<PagoPorSicex>true</PagoPorSicex>
+					<MontoPagado>656890</MontoPagado>
+					<Laboratorio SchemaVersion="1">
+						<RutLaboratorio>
+							<SicexRut>
+								<numero>67332723</numero>
+								<dv>0</dv>
+							</SicexRut>
+						</RutLaboratorio>
+						<NombreLaboratorio>Laboratorio Papel</NombreLaboratorio>
+						<DireccionLaboratorio>Direccion Laboratorio</DireccionLaboratorio>
+						<TelefonoLaboratorio>
+							<SicexTelefono>
+								<CodigoPais>45</CodigoPais>
+								<Prefijo>123</Prefijo>
+								<Numero>75676877</Numero>
+								<Anexo>211</Anexo>
+							</SicexTelefono>
+						</TelefonoLaboratorio>
+					</Laboratorio>
+				</TomaDeMuestra>
+			</Item>
+		</Mercancia>
+	</UsoYDisposicion>
+</SRIOIUD025Consulta>

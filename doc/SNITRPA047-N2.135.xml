@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Archivo XML de muestra generado con XMLSpy v2015 sp2 (http://www.altova.com)-->
+<SNITRPA047Consulta xmlns="http://valida.aem.gob.cl" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:n1="http://www.altova.com/samplexml/other-namespace" SchemaVersion="1" xsi:schemaLocation="http://valida.aem.gob.cl SNITRPA047Consulta-v1-0.xsd">
+	<Cabecera SchemaVersion="1">
+		<CodigoMensaje>N2.135</CodigoMensaje>
+		<TransaccionId>TRN201501010000000000</TransaccionId>
+		<NumeroVersion>6567567</NumeroVersion>
+		<Destinatario>HACIENDA</Destinatario>
+		<Remitente>SAG</Remitente>
+		<IdRuce>20150101IMP0000000000</IdRuce>
+		<FechaCreacionRuce>
+			<fechaHoraValida>2001-12-17T09:30:47Z</fechaHoraValida>
+		</FechaCreacionRuce>
+		<EstadoRuce>Enviado</EstadoRuce>
+		<FechaEstadoRuce>
+			<fechaHoraValida>2001-12-17T09:30:47Z</fechaHoraValida>
+		</FechaEstadoRuce>
+	</Cabecera>
+	<DetallePago SchemaVersion="1">
+		<EstadoPago>DOPAC</EstadoPago>
+		<FechaPago>
+			<fechaHoraValida>2001-12-17T09:30:47Z</fechaHoraValida>
+		</FechaPago>
+		<Codigo>CODSICEX000001</Codigo>
+		<Tipo>DocumentoIngreso</Tipo>
+	</DetallePago>
+</SNITRPA047Consulta>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SNIINTR016Consulta xmlns="http://valida.aem.gob.cl" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:n1="http://www.altova.com/samplexml/other-namespace" SchemaVersion="1" xsi:schemaLocation="http://valida.aem.gob.cl SNIINTR015Consulta-v1-0.xsd">
+	<Cabecera SchemaVersion="1">
+		<CodigoMensaje>N1.105</CodigoMensaje>
+		<TransaccionId>TRN201501010000000000</TransaccionId>
+		<NumeroVersion>0</NumeroVersion>
+		<Destinatario>OIG</Destinatario>
+		<Remitente>HACIENDA</Remitente>
+		<IdRuce>20150101IMP0000000000</IdRuce>
+		<FechaCreacionRuce>
+			<fechaHoraValida>2001-12-17T09:30:47Z</fechaHoraValida>
+		</FechaCreacionRuce>
+		<EstadoRuce>Enviado</EstadoRuce>
+		<FechaEstadoRuce>
+			<fechaHoraValida>2001-12-17T09:30:47Z</fechaHoraValida>
+		</FechaEstadoRuce>
+	</Cabecera>
+	<Declaracion SchemaVersion="1">
+		<NumeroIdentificacion>0000012</NumeroIdentificacion>
+		<Inspeccion SchemaVersion="1">
+			<TipoDeInspeccion>AF</TipoDeInspeccion>
+			<EstadoInspeccion>ZPRDO</EstadoInspeccion>
+			<FechaMovimiento>
+				<fechaHoraValida>2001-12-17T09:30:47Z</fechaHoraValida>
+			</FechaMovimiento>
+			<CodigoNuevoAforo>52</CodigoNuevoAforo>
+		</Inspeccion>	
+	</Declaracion>
+</SNIINTR016Consulta>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Archivo XML de muestra generado con XMLSpy v2015 sp2 (x64) (http://www.altova.com)-->
+<SCITRTR021Consulta xmlns="http://valida.aem.gob.cl" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:n1="http://www.altova.com/samplexml/other-namespace" SchemaVersion="1" xsi:schemaLocation="http://valida.aem.gob.cl SCITRTR021Consulta-v1-0.xsd">
+	<Cabecera SchemaVersion="1">
+		<CodigoMensaje>M1.115</CodigoMensaje>
+		<TransaccionId>TRN201501010000000000</TransaccionId>
+		<NumeroVersion>0</NumeroVersion>
+		<Destinatario>SAG</Destinatario>
+		<Remitente>HACIENDA</Remitente>
+		<IdRuce>20150101IMP0000000000</IdRuce>
+		<FechaCreacionRuce>
+			<fechaHoraValida>2001-12-17T09:30:47Z</fechaHoraValida>
+		</FechaCreacionRuce>
+		<EstadoRuce>Enviado</EstadoRuce>
+		<FechaEstadoRuce>
+			<fechaHoraValida>2001-12-17T09:30:47Z</fechaHoraValida>
+		</FechaEstadoRuce>
+	</Cabecera>
+	<DocumentoIngreso SchemaVersion="1">
+		<CodigoPrestacion>6767</CodigoPrestacion>
+		<NumeroDocumentoIngreso>DOC000001</NumeroDocumentoIngreso>
+		<Url>http://url/documentoIngreso.pdf</Url>
+		<FechaDocumentoIngreso>
+			<fechaHoraValida>2001-12-17T09:30:47Z</fechaHoraValida>
+		</FechaDocumentoIngreso>
+		<Mercancia SchemaVersion="1">
+			<Item SchemaVersion="1">
+				<NumeroItem>1</NumeroItem>
+				<UsoPrevisto>Uso Previsto2344</UsoPrevisto>
+				<CodigoPaisProduccion>COL</CodigoPaisProduccion>
+				<GlosaPaisProduccion>Glosa Pais Produccion123</GlosaPaisProduccion>
+				<Cantidad>536343</Cantidad>
+				<ObservacionOIG>Observacion OIG123</ObservacionOIG>
+				<Lote>Lote1234</Lote>
+				<NombreProductor>Gabriel Marquez</NombreProductor>
+				<PesoNeto>325353</PesoNeto>
+				<PesoBruto>431231</PesoBruto>
+				<Producto SchemaVersion="1">
+					<CodigoProducto>040000000004</CodigoProducto>
+					<Atributo SchemaVersion="1">
+						<SecuenciaAtributo>1</SecuenciaAtributo>
+						<NombreAtributo>Nombre Atributo</NombreAtributo>
+						<ValorAtributo>67567</ValorAtributo>
+						<EsFijo>true</EsFijo>
+					</Atributo>
+				</Producto>
+			</Item>
+		</Mercancia>
+		<Destino SchemaVersion="1">
+			<InstalacionDestino SchemaVersion="1">
+				<NumeroDocumentoComercial>3634</NumeroDocumentoComercial>
+				<NombreInstalacionDestino>Nombre Inst Destino123</NombreInstalacionDestino>
+				<RegionInstalacionDestino>Region543</RegionInstalacionDestino>
+				<ComunaInstalacionDestino>342</ComunaInstalacionDestino>
+				<NumeroResolucionAutorizacion>1421</NumeroResolucionAutorizacion>
+				<FechaEmisionResolucion>
+					<fechaHoraValida>2001-12-17T09:30:47Z</fechaHoraValida>
+				</FechaEmisionResolucion>
+				<EntidadEmisora>Entidad Emisora 123</EntidadEmisora>
+				<DireccionInstalacionDestino>DireccionInstDestino9876</DireccionInstalacionDestino>
+				<NombreDirectorTecnico>
+					<SicexNombres>
+						<Nombres>Juan Victor</Nombres>
+						<ApellidoPaterno>Herrera</ApellidoPaterno>
+						<ApellidoMaterno>Perez</ApellidoMaterno>
+					</SicexNombres>
+				</NombreDirectorTecnico>
+				<CodigoInstalacionDestino>56465</CodigoInstalacionDestino>
+				<TelefonoInstalacionDestino>
+					<SicexTelefono>
+						<CodigoPais>77</CodigoPais>
+						<Prefijo>123</Prefijo>
+						<Numero>5446436</Numero>
+						<Anexo>32</Anexo>
+					</SicexTelefono>
+				</TelefonoInstalacionDestino>
+				<ContactoInstalacionDestino>Pedro Caceres</ContactoInstalacionDestino>
+				<TipoInstalacion>Tipo Instalacion21</TipoInstalacion>
+				<NombreFantasia>Nombre Fantasia123</NombreFantasia>
+				<DocumentoResolucion>
+					<SicexAdjunto SchemaVersion="1.0">
+						<Cantidad>1</Cantidad>
+						<ArchivoBinario SchemaVersion="1.0">
+							<Nombre>Archivos123</Nombre>
+							<TipoContenido>Documentos564</TipoContenido>
+							<CantidadBytes>2000</CantidadBytes>
+							<DataCodificada>UjBsR09EbGhjZ0dTQUxNQUFBUUNBRU1tQ1p0dU1GUXhEUzhi</DataCodificada>
+							<Descripcion>Documento Resolucion</Descripcion>
+						</ArchivoBinario>
+					</SicexAdjunto>
+				</DocumentoResolucion>
+			</InstalacionDestino>
+		</Destino>
+	</DocumentoIngreso>
+	<IdentificacionUsuario SchemaVersion="1">
+		<DatosOrganizacion SchemaVersion="1">
+			<RutOrganizacion>
+				<SicexRut>
+					<numero>65657643</numero>
+					<dv>0</dv>
+				</SicexRut>
+			</RutOrganizacion>
+			<NombreOrganizacion>Organizacion ABC</NombreOrganizacion>
+			<DomicilioOrganizacion>Domicilio 12345</DomicilioOrganizacion>
+			<GiroComercialOrganizacion>Giro Comercial Ventas</GiroComercialOrganizacion>
+			<DatosSuborganizacion SchemaVersion="1">
+				<RutSubOrganizacion>
+					<SicexRut>
+						<numero>65656767</numero>
+						<dv>0</dv>
+					</SicexRut>
+				</RutSubOrganizacion>
+				<NombreSubOrganizacion>SubOrganizacion GFDS</NombreSubOrganizacion>
+				<DomicilioSubOrganizacion>Domicilio 09876</DomicilioSubOrganizacion>
+				<GiroComercialSubOrganizacion>Giro SubOrganizacion123</GiroComercialSubOrganizacion>
+			</DatosSuborganizacion>
+		</DatosOrganizacion>
+		<DatosUsuario SchemaVersion="1">
+			<RutUsuario>
+				<SicexRut>
+					<numero>53433234</numero>
+					<dv>0</dv>
+				</SicexRut>
+			</RutUsuario>
+			<Perfil>Perfil Usuario 35632</Perfil>
+			<NombreUsuario>Camilo Torres</NombreUsuario>
+		</DatosUsuario>
+	</IdentificacionUsuario>
+	<Declaracion SchemaVersion="1">
+		<NumeroIdentificacion>876876</NumeroIdentificacion>
+		<FechaAceptacion>
+			<fechaHoraValida>2001-12-17T09:30:47Z</fechaHoraValida>
+		</FechaAceptacion>
+		<NombreAduana>Aduana Casa123</NombreAduana>
+		<RegionIngreso>Region123</RegionIngreso>
+		<Despachador SchemaVersion="1">
+			<CodigoDespachador>A01</CodigoDespachador>
+			<RutDespachador>
+				<SicexRut>
+					<numero>86767566</numero>
+					<dv>0</dv>
+				</SicexRut>
+			</RutDespachador>
+			<NombreDespachador>
+				<SicexNombres>
+					<Nombres>Cristobal Andres</Nombres>
+					<ApellidoPaterno>Reyes</ApellidoPaterno>
+					<ApellidoMaterno>Lagos</ApellidoMaterno>
+				</SicexNombres>
+			</NombreDespachador>
+			<DireccionDespachador>Direccion63563 </DireccionDespachador>
+			<ComunaDespachador>Comuna8778</ComunaDespachador>
+			<RegionDespachador>Region9787</RegionDespachador>
+			<ClaveAccesoStlDespachador>Clave Acceso</ClaveAccesoStlDespachador>
+		</Despachador>
+		<Importador SchemaVersion="1">
+			<RutImportador>
+				<SicexRut>
+					<numero>97876786</numero>
+					<dv>0</dv>
+				</SicexRut>
+			</RutImportador>
+			<NombreImportador>
+				<SicexNombres>
+					<Nombres>Fernando Elvis</Nombres>
+					<ApellidoPaterno>Acevedo</ApellidoPaterno>
+					<ApellidoMaterno>Silva</ApellidoMaterno>
+				</SicexNombres>
+			</NombreImportador>
+			<DireccionImportador>Direccion Casa 7654</DireccionImportador>
+			<ComunaImportador>01101</ComunaImportador>
+			<RegionImportador>Metropolitana</RegionImportador>
+			<ClaveAccesoStlImportador>Clave AccesoSTL</ClaveAccesoStlImportador>
+			<RepresentanteLegal SchemaVersion="1">
+				<NombreRepresentanteLegal>
+					<SicexNombres>
+						<Nombres>Casimiro Antonio</Nombres>
+						<ApellidoPaterno>Carrera</ApellidoPaterno>
+						<ApellidoMaterno>Vega</ApellidoMaterno>
+					</SicexNombres>
+				</NombreRepresentanteLegal>
+				<RutRepresentanteLegal>
+					<SicexRut>
+						<numero>54758622</numero>
+						<dv>0</dv>
+					</SicexRut>
+				</RutRepresentanteLegal>
+			</RepresentanteLegal>
+		</Importador>
+		<DocumentoComercial SchemaVersion="1">
+			<EmisorDocumentoComercial>
+				<SicexNombres>
+					<Nombres>Alicia Alejandra</Nombres>
+					<ApellidoPaterno>Vera</ApellidoPaterno>
+					<ApellidoMaterno>Pereira</ApellidoMaterno>
+				</SicexNombres>
+			</EmisorDocumentoComercial>
+			<NumeroDocumentoComercial>3634</NumeroDocumentoComercial>
+			<CodigoPaisEmisorDocumentoComercial>BOL</CodigoPaisEmisorDocumentoComercial>
+			<FechaDocumentoComercial>
+				<fechaHoraValida>2001-12-17T09:30:47Z</fechaHoraValida>
+			</FechaDocumentoComercial>
+		</DocumentoComercial>
+		<Origen SchemaVersion="1">
+			<Transporte SchemaVersion="1">
+				<CodigoPuertoDeEmbarque>345</CodigoPuertoDeEmbarque>
+				<CodigoDeTransbordo>6</CodigoDeTransbordo>
+				<CodigoPaisProcedencia>ALE</CodigoPaisProcedencia>
+				<Transbordo SchemaVersion="1">
+					<SecuencialTransbordo>1</SecuencialTransbordo>
+					<CodigoPuertoTransbordo>435</CodigoPuertoTransbordo>
+					<GlosaPuertoTransbordo>Glosa PT</GlosaPuertoTransbordo>
+				</Transbordo>
+			</Transporte>
+		</Origen>
+	</Declaracion>
+	<UsoYDisposicion SchemaVersion="1">
+		<FolioResolucion>6756787</FolioResolucion>
+		<FechaResolucion>
+			<fechaHoraValida>2001-12-17T09:30:47Z</fechaHoraValida>
+		</FechaResolucion>
+		<DocumentosAdjuntos>
+			<SicexAdjunto SchemaVersion="1.0">
+				<Cantidad>1</Cantidad>
+				<ArchivoBinario SchemaVersion="1.0">
+					<Nombre>Documentos</Nombre>
+					<TipoContenido>archivos3242</TipoContenido>
+					<CantidadBytes>150</CantidadBytes>
+					<DataCodificada>UjBsR09EbGhjZ0dTQUxNQUFBUUNBRU1tQ1p0dU1GUXhEUzhi</DataCodificada>
+					<Descripcion>Documentos Adjuntos</Descripcion>
+				</ArchivoBinario>
+			</SicexAdjunto>
+		</DocumentosAdjuntos>
+		<SeremiTramitacion>Seremi</SeremiTramitacion>
+		<ObservacionRectificacion>Observacion</ObservacionRectificacion>
+		<IdSolicitud>CODSICEX0002</IdSolicitud>
+	</UsoYDisposicion>
+</SCITRTR021Consulta>

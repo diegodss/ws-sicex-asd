@@ -1,0 +1,180 @@
+29.03.2015 11:23:27  => Date error : FechaCreacionRuce=>?  
+29.03.2015 11:23:27  => Date error : FechaEstadoRuce=>?  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: CodigoPrestacion  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: FechaResolucion  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: IdTramiteSSPP  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: EstadoAnulacion  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: ObservacionDocumento  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: Url  
+29.03.2015 11:23:27  => Mandatorio error : NumeroItem=>?  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: CodigoEvaluadorDocumentoIngreso  
+29.03.2015 11:23:27  => Date error : FechaSolicitud=>?  
+29.03.2015 11:23:27  => Date error : FechaDocumentoIngreso=>?  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: ValorTramite  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: EstadoSolicitud  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: FechaReferencia  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: ActaRechazoImportacion  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: ActaInmovilizacionProductos  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: RequiereUsoYDisposicion  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: DocumentoIngresoSSPP  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: NumeroIdentificacion  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: NumeroTotalDeItems  
+29.03.2015 11:23:27  => Mandatorio error : TotalBultos=>?  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: TotalPesoBruto  
+29.03.2015 11:23:27  => Mandatorio error : NumeroItem=>?  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: ServiciosPublicosCompetentes  
+29.03.2015 11:23:27  => Mandatorio error : ValorCIF=>?  
+29.03.2015 11:23:27  => Mandatorio error : MontoAjuste=>?  
+29.03.2015 11:23:27  => Mandatorio error : Cantidad=>?  
+29.03.2015 11:23:27  => Mandatorio error : CodigoUnidadDeMedida=>?  
+29.03.2015 11:23:27  => Boolean error : CantidadDeMercanciasEstimada=>?  
+29.03.2015 11:23:27  => Mandatorio error : PrecioUnitarioFOB=>?  
+29.03.2015 11:23:27  => Mandatorio error : NumeroCorrelativoArancel=>?  
+29.03.2015 11:23:27  => Mandatorio error : CodigoAcuerdoComercial=>?  
+29.03.2015 11:23:27  => Boolean error : SujetoACupo=>?  
+29.03.2015 11:23:27  => Mandatorio error : PorcentajeAdvalorem=>?  
+29.03.2015 11:23:27  => Mandatorio error : CodigoCuentaAdvalorem=>?  
+29.03.2015 11:23:27  => Mandatorio error : MontoCuentaAdvalorem=>?  
+29.03.2015 11:23:27  => Mandatorio error : PesoUnitario=>?  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: CodigoUnidadDeMedidaPesoUnitario  
+29.03.2015 11:23:27  => Mandatorio error : PesoNeto=>?  
+29.03.2015 11:23:27  => Mandatorio error : PesoBruto=>?  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: Direccionproductor  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: EstadoCondicionProducto  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: Observaciones  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: EstadoItem  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: CodigoPrestacion  
+29.03.2015 11:23:27  => Mandatorio error : SecuenciaAtributo=>?  
+29.03.2015 11:23:27  => Boolean error : EsFijo=>?  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: CodigoUnicoAtributo  
+29.03.2015 11:23:27  => Mandatorio error : PesoBruto=>?  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: CantidadMercancia  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: MatriculaRemolque  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: PaisVehiculo  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: TaraCamion  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: TaraRemolque  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: FechaArribo  
+29.03.2015 11:23:27  => Mandatorio error : ViaDeTransporte=>?  
+29.03.2015 11:23:27  => Mandatorio error : CodigoPuertoDeEmbarque=>?  
+29.03.2015 11:23:27  => Mandatorio error : CodigoPuertoDeDesembarque=>?  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: TipoDeCarga  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: NombreCompaniaTransporte  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: CodigoPaisCompaniaTransportadora  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: RutCompaniaTransportadora  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: FechaDocumentoTransporte  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: FechaEmbarque  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: FechaDesembarque  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: NombreNave  
+29.03.2015 11:23:27  => Date error : FechaEstimadaLlegada=>?  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: TipoNombre  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: OrigenDistintoMenorCincuenta  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: PaisDistintoMenorCincuenta  
+29.03.2015 11:23:27  => Mandatorio error : SecuencialTransbordo=>?  
+29.03.2015 11:23:27  => Mandatorio error : CodigoPuertoTransbordo=>?  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: SecuencialManifiesto  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: NumeroManifiesto  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: FechaManifiesto  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: NombreEmisor  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: TipoNombre  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: RutEmisor  
+29.03.2015 11:23:27  => Mandatorio error : ComunaInstalacionDestino=>?  
+29.03.2015 11:23:27  => Date error : FechaEmisionResolucion=>?  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: TipoNombre  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: NombreFantasia  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: DocumentoResolucion  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: GiroComercialSubOrganizacion  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: DatosUsuarioType  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: NumeroIdentificacion  
+29.03.2015 11:23:27  => Mandatorio error : CodigoAduana=>?  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: FechaAceptacion  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: CampoForm  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: FechaDeVencimiento  
+29.03.2015 11:23:27  => Mandatorio error : CodigoTipoOperacion=>?  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: TipoDeIngreso  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: NumeroEncriptado  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: Estado  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: UrlDin  
+29.03.2015 11:23:27  => Mandatorio error : TipoDestinacion=>?  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: MercanciaInscritaDescrita  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: FechaEnvio  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: TipoAccion  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: DocumentoAdjunto  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: FechaEstado  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: Estado  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: TipoNombre  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: TipoNombreContacto  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: NumeroTelefonoMovil  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: ClaveAccesoStlDespachador  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: TipoNombre  
+29.03.2015 11:23:27  => Mandatorio error : ComunaImportador=>?  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: TipoDocumentoIdentificacion  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: ClaveAccesoStlImportador  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: TipoNombre  
+29.03.2015 11:23:27  => Mandatorio error : ComunaRepresentanteLegal=>?  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: NumeroProrroga  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: NumeroResolucion  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: FechaResolucion  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: DiasSolicitados  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: DiasAutorizados  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: Causal  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: EstadoSolicitud  
+29.03.2015 11:23:27  => Date error : FechaSolicitud=>?  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: MotivoRechazo  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: TipoDocumento  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: DocumentoAdjunto  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: AduanaOtorgamiento  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: Observaciones  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: TipoDeInspeccion  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: ResultadoInspeccion  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: FechaResultadoInspeccion  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: EstadoInspeccion  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: FechaMovimiento  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: CodigoNuevoAforo  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: NumeroMic  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: FechaMic  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: ObservacionInspeccion  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: TipoDeRetencion  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: Retencion  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: FechaInspeccion  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: DetalleInspeccion  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: TipoDeInspeccionOIG  
+29.03.2015 11:23:27  => Mandatorio error : ComunaInstalacionDestino=>?  
+29.03.2015 11:23:27  => Date error : FechaEmisionResolucion=>?  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: TipoNombre  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: NombreFantasia  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: DocumentoResolucion  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: FechaSalidaZonaPrimaria  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: EstadoSalidaZonaPrimaria  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: TipoDocumento  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: NumeroDocumento  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: FechaDocumento  
+29.03.2015 11:23:27  => Mandatorio error : PesoBruto=>?  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: CantidadMercancia  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: MatriculaRemolque  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: PaisVehiculo  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: TaraCamion  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: TaraRemolque  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: FechaArribo  
+29.03.2015 11:23:27  => Mandatorio error : ViaDeTransporte=>?  
+29.03.2015 11:23:27  => Mandatorio error : CodigoPuertoDeEmbarque=>?  
+29.03.2015 11:23:27  => Mandatorio error : CodigoPuertoDeDesembarque=>?  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: TipoDeCarga  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: NombreCompaniaTransporte  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: CodigoPaisCompaniaTransportadora  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: RutCompaniaTransportadora  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: FechaDocumentoTransporte  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: FechaEmbarque  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: FechaDesembarque  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: NombreNave  
+29.03.2015 11:23:27  => Date error : FechaEstimadaLlegada=>?  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: TipoNombre  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: OrigenDistintoMenorCincuenta  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: PaisDistintoMenorCincuenta  
+29.03.2015 11:23:27  => Mandatorio error : SecuencialTransbordo=>?  
+29.03.2015 11:23:27  => Mandatorio error : CodigoPuertoTransbordo=>?  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: SecuencialManifiesto  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: NumeroManifiesto  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: FechaManifiesto  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: NombreEmisor  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: TipoNombre  
+29.03.2015 11:23:27  => validaArray error: Campo nao encontrado: RutEmisor  

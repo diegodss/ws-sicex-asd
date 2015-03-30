@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Archivo XML de muestra generado con XMLSpy v2015 sp2 (x64) (http://www.altova.com)-->
+<SNITRTR026Consulta xmlns="http://valida.aem.gob.cl" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:n1="http://www.altova.com/samplexml/other-namespace" SchemaVersion="1" xsi:schemaLocation="http://valida.aem.gob.cl SNITRTR026Consulta-v1-0.xsd">
+    <Cabecera SchemaVersion="1">
+		<CodigoMensaje>N1.118</CodigoMensaje>
+		<TransaccionId>TRN201501010000000000</TransaccionId>
+		<NumeroVersion>0</NumeroVersion>
+		<Destinatario>ISP</Destinatario>
+		<Remitente>HACIENDA</Remitente>
+		<IdRuce>20150101IMP0000000000</IdRuce>
+		<FechaCreacionRuce>
+			<fechaHoraValida>2001-12-17T09:30:47Z</fechaHoraValida>
+		</FechaCreacionRuce>
+		<EstadoRuce>Enviado</EstadoRuce>
+		<FechaEstadoRuce>
+			<fechaHoraValida>2001-12-17T09:30:47Z</fechaHoraValida>
+		</FechaEstadoRuce>
+	</Cabecera>
+    <DocumentoIngreso SchemaVersion="1">
+		<NumeroDocumentoIngreso>767689</NumeroDocumentoIngreso>
+		<FechaDocumentoIngreso>
+			<fechaHoraValida>2001-12-17T09:30:47Z</fechaHoraValida>
+		</FechaDocumentoIngreso>
+		<NumeroIdentificacion>7467567</NumeroIdentificacion>
+	</DocumentoIngreso>
+	<UsoYDisposicion SchemaVersion="1">
+		<FolioResolucion>87890</FolioResolucion>
+		<FechaResolucion>
+			<fechaHoraValida>2001-12-17T09:30:47Z</fechaHoraValida>
+		</FechaResolucion>
+		<Url>http://Url1234.com</Url>
+		<NumeroReferenciaInterna>34456676</NumeroReferenciaInterna>
+		<IdSolicitud>CODSICEX0002</IdSolicitud>
+		<EstadoSolicitud>UDDPP</EstadoSolicitud>
+		<Mercancia SchemaVersion="1">
+		    <Item SchemaVersion="1">
+			    <NumeroItem>1</NumeroItem>
+				<Observaciones>Observaciones Item</Observaciones>
+				<EstadoItem>UDRND</EstadoItem>
+				<Producto SchemaVersion="1">
+					<CodigoProducto>040000000004</CodigoProducto>
+				</Producto>
+				<Aclaracion SchemaVersion="1">
+					<EncabezadoAclaracion>Encabezado Aclaracion11</EncabezadoAclaracion>
+				</Aclaracion>
+			</Item>
+		</Mercancia>
+	</UsoYDisposicion>
+	<Notificacion SchemaVersion="1">
+		<SsppEmisor>SAG</SsppEmisor>
+		<FechaRecepcion>
+			<fechaHoraValida>2001-12-17T09:30:47Z</fechaHoraValida>
+		</FechaRecepcion>
+	</Notificacion>
+</SNITRTR026Consulta>

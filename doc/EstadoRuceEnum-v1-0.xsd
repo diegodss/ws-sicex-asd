@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:aem="http://valida.aem.gob.cl" targetNamespace="http://valida.aem.gob.cl" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xsd:annotation>
+		<xsd:documentation>
+			Nombre Esquema: .
+			Esquema: Basal.
+		</xsd:documentation>
+		<xsd:appinfo>
+			<dc:title>Schema de .</dc:title>
+			<dc:subject> .</dc:subject>
+			<dc:creator>
+				Consorsio everis/Crimson Logic.
+			</dc:creator>
+			<dc:contributor>Consorcio everis/Crimson Logic</dc:contributor>
+			<dc:date>2014-12-09</dc:date>
+			<dc:description>
+				Schema de ... para uso en esquemas del Gobierno
+				de
+				Chile
+			</dc:description>
+			<dc:identifier>
+				http://valida.aem.gob.cl/basales/NombreArchivo.xsd
+			</dc:identifier>
+			<dc:format>text/xml</dc:format>
+			<dcterms:created>2014-12-09</dcterms:created>
+			<dc:type>XML Schema</dc:type>
+			<dc:language>es</dc:language>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:simpleType name="EstadoRuceEnum">
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="Borrador">
+				<xsd:annotation>
+					<xsd:documentation>
+						Indica que el estado RUCE esta en Borrador
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="Enviado">
+				<xsd:annotation>
+					<xsd:documentation>
+						Indica que el estado RUCE esta en Enviado
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="Cancelado">
+				<xsd:annotation>
+					<xsd:documentation>
+						Indica que el estado RUCE esta en Cancelado
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="Rechazado">
+				<xsd:annotation>
+					<xsd:documentation>
+						Indica que el estado RUCE esta en Rechazado
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="Finalizado">
+				<xsd:annotation>
+					<xsd:documentation>
+						Indica que el estado RUCE esta en Finalizado
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+		</xsd:restriction>
+	</xsd:simpleType>
+</xsd:schema>

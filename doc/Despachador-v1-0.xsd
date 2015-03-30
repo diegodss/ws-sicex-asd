@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:aem="http://valida.aem.gob.cl" targetNamespace="http://valida.aem.gob.cl" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0" xml:lang="es">
+	<xsd:include schemaLocation="TiposSicex-v1-0.xsd"/>
+	<xsd:annotation>
+		<xsd:documentation> Nombre Esquema: Despachador-v1-0.xsd Esquema: Basal. </xsd:documentation>
+		<xsd:appinfo>
+			<dc:title>Schema Declaracion Despachador.</dc:title>
+			<dc:subject> .</dc:subject>
+			<dc:creator> Consorsio everis/Crimson Logic. </dc:creator>
+			<dc:contributor>Consorcio everis/Crimson Logic</dc:contributor>
+			<dc:date>2014-12-09</dc:date>
+			<dc:description> Declaracion Despachador </dc:description>
+			<dc:identifier> http://valida.aem.gob.cl/basales/Despachador-v1-0.xsd </dc:identifier>
+			<dc:format>text/xml</dc:format>
+			<dcterms:created>2014-12-09</dcterms:created>
+			<dc:type>XML Schema</dc:type>
+			<dc:language>es</dc:language>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:complexType name="DespachadorType">
+		<xsd:sequence>
+			<xsd:element name="CodigoDespachador" type="aem:SicexStringDos" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 761, 327, 16, 1639
+						Descripcion: Despachador->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="RutDespachador" type="aem:SicexRut" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 1424,77, 1634
+						Descripcion: Despachador->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="NombreDespachador" type="aem:SicexStringNueve" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 17, 1636
+						Descripcion: Despachador->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="TipoNombre" type="aem:SicexStringUno" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: s/n153
+						Descripcion: Despachador->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="NombreContacto" type="aem:SicexStringNueve" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 79
+						Descripcion: Despachador->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="TipoNombreContacto" type="aem:SicexStringUno" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: s/n154
+						Descripcion: Despachador->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="NumeroTelefonoFijo" type="aem:SicexTelefono" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 80
+						Descripcion: Despachador->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="NumeroTelefonoMovil" type="aem:SicexTelefono" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 81
+						Descripcion: Despachador->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="EmailContacto" type="aem:SicexStringSeis" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 82
+						Descripcion: Despachador->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="DireccionDespachador" type="aem:SicexStringSeis" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 1640
+						Descripcion: Despachador->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="ComunaDespachador" type="aem:SicexStringSeis" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 1641
+						Descripcion: Despachador->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="RegionDespachador" type="aem:SicexStringSeis" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 1642
+						Descripcion: Despachador->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="ClaveAccesoStlDespachador" type="aem:SicexStringSeis" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 1643
+						Descripcion: Despachador->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="EmailDespachador" type="aem:SicexCorreoElectronico" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: s/n147
+						Descripcion: Despachador->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+		</xsd:sequence>
+		<xsd:attribute name="SchemaVersion" type="xsd:decimal" use="required" fixed="1.0">
+			<xsd:annotation>
+				<xsd:documentation> Version del esquema. Permite la persistencia de la version del
+					esquema en instancias xml (Guia de Desarrollo y Uso De Esquemas De Gobierno v1.1
+					- 5.4.3) </xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
+	</xsd:complexType>
+</xsd:schema>

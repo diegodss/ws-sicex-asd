@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- editado con XMLSpy v2015 sp2 (http://www.altova.com) por Cristobal Hernandez (Casa) -->
+<xsd:schema xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:aem="http://valida.aem.gob.cl" targetNamespace="http://valida.aem.gob.cl" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0" xml:lang="es">
+	<xsd:include schemaLocation="TiposSicex-v1-0.xsd"/>
+	<xsd:include schemaLocation="SicexEnum-v1-0.xsd"/>
+	<xsd:include schemaLocation="InstalacionDestino-v1-0.xsd"/>
+	<xsd:include schemaLocation="DocumentoIngreso-v1-0.xsd"/>
+	<xsd:include schemaLocation="Aclaracion-v1-0.xsd"/>
+	<xsd:annotation>
+		<xsd:documentation> Nombre Esquema: Inspeccion-v1-0.xsd Esquema: Basal. </xsd:documentation>
+		<xsd:appinfo>
+			<dc:title>Schema Inspeccion</dc:title>
+			<dc:subject> .</dc:subject>
+			<dc:creator> Consorsio everis/Crimson Logic. </dc:creator>
+			<dc:contributor>Consorcio everis/Crimson Logic</dc:contributor>
+			<dc:date>2014-12-23</dc:date>
+			<dc:description> Inspeccion </dc:description>
+			<dc:identifier> http://valida.aem.gob.cl/basales/Inspeccion-v1-0.xsd </dc:identifier>
+			<dc:format>text/xml</dc:format>
+			<dcterms:created>2014-12-23</dcterms:created>
+			<dc:type>XML Schema</dc:type>
+			<dc:language>es</dc:language>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:complexType name="InspeccionType">
+		<xsd:sequence>
+			<xsd:element name="TipoDeInspeccion" type="aem:SicexStringDos" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 528 
+                        Descripcion: Inspeccion->
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="ResultadoInspeccion" type="aem:SicexStringTres" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 531
+                        Descripcion: Inspeccion->
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="FechaResultadoInspeccion" type="aem:SicexFechaHora" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: s/n22, s/n48
+                        Descripcion: Inspeccion->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="EstadoInspeccion" type="aem:SicexEnum" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: s/n44
+                        Descripcion: Inspeccion->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="FechaMovimiento" type="aem:SicexFechaHora" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 1117
+                        Descripcion: Inspeccion->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="CodigoNuevoAforo" type="aem:SicexStringDos" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 1120
+                        Descripcion: Inspeccion->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="NumeroMic" type="aem:SicexStringCuatro" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 1122
+                        Descripcion: Inspeccion->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="FechaMic" type="aem:SicexFechaHora" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 1125
+                        Descripcion: Inspeccion->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="ObservacionInspeccion" type="aem:SicexStringSeis" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 533
+                        Descripcion: Inspeccion->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="TipoDeRetencion" type="aem:SicexStringUno" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 1364
+                        Descripcion: Inspeccion->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="Retencion" type="aem:SicexStringUno" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 1363
+                        Descripcion: Inspeccion->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="FechaInspeccion" type="aem:SicexFechaHora" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: s/n46
+                        Descripcion: Inspeccion->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="DetalleInspeccion" type="aem:SicexStringDiez" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: s/n47
+                        Descripcion: Inspeccion->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="TipoDeInspeccionOIG" type="aem:SicexStringCuatro" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: s/n45
+                        Descripcion: Inspeccion->
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="InstalacionDestino" type="aem:InstalacionDestinoType" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						<!-- Documentar -->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="DocumentoIngreso" type="aem:DocumentoIngresoType" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						<!-- Documentar -->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="Aclaracion" type="aem:AclaracionType" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						<!-- Documentar -->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+		</xsd:sequence>
+		<xsd:attribute name="SchemaVersion" type="xsd:decimal" use="required" fixed="1.0">
+			<xsd:annotation>
+				<xsd:documentation> Version del esquema. Permite la persistencia de la version del
+					esquema en instancias xml (Guia de Desarrollo y Uso De Esquemas De Gobierno v1.1
+					- 5.4.3) </xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
+	</xsd:complexType>
+</xsd:schema>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:aem="http://valida.aem.gob.cl" targetNamespace="http://valida.aem.gob.cl" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xsd:annotation>
+		<xsd:documentation> Nombre Esquema: SicexMonedaEnum-v1-0 Esquema: Basal. </xsd:documentation>
+		<xsd:appinfo>
+			<dc:title>Schema de Moneda</dc:title>
+			<dc:subject> .</dc:subject>
+			<dc:creator> Consorsio everis/Crimson Logic. </dc:creator>
+			<dc:contributor>Consorcio everis/Crimson Logic</dc:contributor>
+			<dc:date>2014-12-30</dc:date>
+			<dc:description> Schema de... para uso en esquemas
+                del Gobierno de Chile </dc:description>
+			<dc:identifier> http://www.openuri.org/basales/SicexMonedaEnum-v1-0.xsd </dc:identifier>
+			<dc:format>text/xml</dc:format>
+			<dcterms:created>2014-12-30</dcterms:created>
+			<dc:type>XML Schema</dc:type>
+			<dc:language>es</dc:language>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:simpleType name="SicexMonedaEnum">
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="CLP"/>
+			<xsd:enumeration value="UF"/>
+			<xsd:enumeration value="UTM"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+</xsd:schema>

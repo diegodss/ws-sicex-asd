@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:aem="http://valida.aem.gob.cl" targetNamespace="http://valida.aem.gob.cl" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xsd:include schemaLocation="http://valida.aem.gob.cl/basales/run.xsd"/>
+	<xsd:include schemaLocation="http://valida.aem.gob.cl/basales/nombre-v1-1.xsd"/>
+	<xsd:include schemaLocation="http://valida.aem.gob.cl/basales/fecha.xsd"/>
+	<xsd:include schemaLocation="http://valida.aem.gob.cl/basales/complementos.xsd"/>
+	<xsd:include schemaLocation="http://valida.aem.gob.cl/basales/AdjuntosBinarios-v1-0.xsd"/>
+	<xsd:include schemaLocation="http://valida.aem.gob.cl/basales/DireccionEmail.xsd"/>
+	<xsd:include schemaLocation="http://valida.aem.gob.cl/basales/Telefono.xsd"/>
+	<xsd:include schemaLocation="http://valida.aem.gob.cl/basales/vocabulario.xsd"/>
+	<xsd:annotation>
+		<xsd:documentation>
+			Nombre Esquema: .Tipos Sicex
+			Esquema: Basal.
+		</xsd:documentation>
+		<xsd:appinfo>
+			<dc:title>Schema de .</dc:title>
+			<dc:subject> .</dc:subject>
+			<dc:creator>
+				Consorsio everis/Crimson Logic.
+			</dc:creator>
+			<dc:contributor>Consorcio everis/Crimson Logic</dc:contributor>
+			<dc:date>2014-12-09</dc:date>
+			<dc:description>
+				Schema de ... para uso en esquemas del Gobierno
+				de
+				Chile
+			</dc:description>
+			<dc:identifier>
+				http://valida.aem.gob.cl/basales/NombreArchivo.xsd
+			</dc:identifier>
+			<dc:format>text/xml</dc:format>
+			<dcterms:created>2014-12-09</dcterms:created>
+			<dc:type>XML Schema</dc:type>
+			<dc:language>es</dc:language>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:simpleType name="SicexStringUno">
+		<xsd:annotation>
+			<xsd:documentation>
+				Tipo: String
+				Largo Maximo: 1
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string">
+			<xsd:minLength value="0"/>
+			<xsd:maxLength value="1"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="SicexStringDos">
+		<xsd:annotation>
+			<xsd:documentation>
+				Tipo: String
+				Largo Maximo: 3
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string">
+			<xsd:minLength value="0"/>
+			<xsd:maxLength value="3"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="SicexStringTres">
+		<xsd:annotation>
+			<xsd:documentation>
+				Tipo: String
+				Largo Maximo: 10
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string">
+			<xsd:minLength value="0"/>
+			<xsd:maxLength value="10"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="SicexStringCuatro">
+		<xsd:annotation>
+			<xsd:documentation>
+				Tipo: String
+				Largo Maximo: 30
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string">
+			<xsd:minLength value="0"/>
+			<xsd:maxLength value="30"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="SicexStringCinco">
+		<xsd:annotation>
+			<xsd:documentation>
+				Tipo: String
+				Largo Maximo: 50
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string">
+			<xsd:minLength value="0"/>
+			<xsd:maxLength value="50"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="SicexStringSeis">
+		<xsd:annotation>
+			<xsd:documentation>
+				Tipo: String
+				Largo Maximo: 100
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string">
+			<xsd:minLength value="0"/>
+			<xsd:maxLength value="100"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="SicexStringSiete">
+		<xsd:annotation>
+			<xsd:documentation>
+				Tipo: String
+				Largo Maximo: 150
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string">
+			<xsd:minLength value="0"/>
+			<xsd:maxLength value="150"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="SicexStringOcho">
+		<xsd:annotation>
+			<xsd:documentation>
+				Tipo: String
+				Largo Maximo: 200
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string">
+			<xsd:minLength value="0"/>
+			<xsd:maxLength value="200"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="SicexStringNueve">
+		<xsd:annotation>
+			<xsd:documentation>
+				Tipo: String
+				Largo Maximo: 256
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string">
+			<xsd:minLength value="0"/>
+			<xsd:maxLength value="256"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="SicexStringDiez">
+		<xsd:annotation>
+			<xsd:documentation>
+				Tipo: String
+				Largo Maximo: 512
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string">
+			<xsd:minLength value="0"/>
+			<xsd:maxLength value="512"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="SicexStringOnce">
+		<xsd:annotation>
+			<xsd:documentation>
+				Tipo: String
+				Largo Maximo: 20
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string">
+			<xsd:minLength value="0"/>
+			<xsd:maxLength value="20"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="SicexStringDoce">
+		<xsd:annotation>
+			<xsd:documentation>
+				Tipo: String
+				Largo Maximo: 5
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string">
+			<xsd:minLength value="0"/>
+			<xsd:maxLength value="5"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="SicexStringTrece">
+		<xsd:annotation>
+			<xsd:documentation>
+				Tipo: String
+				Largo Maximo: 1000
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string">
+			<xsd:minLength value="0"/>
+			<xsd:maxLength value="1000"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="SicexNumericoUno">
+		<xsd:annotation>
+			<xsd:documentation>
+				Tipo: Integer
+				Largo Maximo: 1
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:integer">
+			<xsd:totalDigits value="1"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="SicexNumericoDos">
+		<xsd:annotation>
+			<xsd:documentation>
+				Tipo: integer
+				Largo Maximo: 2
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:integer">
+			<xsd:totalDigits value="2"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="SicexNumericoTres">
+		<xsd:annotation>
+			<xsd:documentation>
+				Tipo: integer
+				Largo Maximo: 5
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:integer">
+			<xsd:totalDigits value="5"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="SicexNumericoCuatro">
+		<xsd:annotation>
+			<xsd:documentation>
+				Tipo: integer
+				Largo Maximo: 10
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:integer">
+			<xsd:totalDigits value="10"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="SicexNumericoCinco">
+		<xsd:annotation>
+			<xsd:documentation>
+				Tipo: integer
+				Largo Maximo: 18
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:integer">
+			<xsd:totalDigits value="18"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="SicexNumericoSeis">
+		<xsd:annotation>
+			<xsd:documentation>
+				Tipo: integer
+				Largo Maximo: 25
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:integer">
+			<xsd:totalDigits value="25"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="SicexNumericoSiete">
+		<xsd:annotation>
+			<xsd:documentation>
+				Tipo: Decimal
+				Largo Maximo: 1,4 = 9,9999
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:decimal">
+			<xsd:pattern value="[0-9]{1}.[0-9]{4}"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="SicexNumericoOcho">
+		<xsd:annotation>
+			<xsd:documentation>
+				Tipo: Decimal
+				Largo Maximo: 2,4 = 99,9999
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:decimal">
+			<xsd:totalDigits value="6"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="SicexNumericoNueve">
+		<xsd:annotation>
+			<xsd:documentation>
+				Tipo: Decimal
+				Largo Maximo: 5,4 = 99999,9999
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:decimal">
+			<xsd:totalDigits value="9"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="SicexNumericoDiez">
+		<xsd:annotation>
+			<xsd:documentation>
+				Tipo: Decimal
+				Largo Maximo: 10,6 =
+				9999999999,999999
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:decimal">
+			<xsd:totalDigits value="16"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="SicexNumericoOnce">
+		<xsd:annotation>
+			<xsd:documentation>
+				Tipo: Decimal
+				Largo Maximo: 18,6 =
+				999999999999999999,999999
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:decimal">
+			<xsd:totalDigits value="24"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="SicexNumericoDoce">
+		<xsd:annotation>
+			<xsd:documentation>
+				Tipo: Decimal
+				Largo Maximo: 25,6 =
+				9999999999999999999999999,999999
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:decimal">
+			<xsd:totalDigits value="31"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="SicexBooleano">
+		<xsd:annotation>
+			<xsd:documentation>
+				Tipo: boleano
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:boolean"/>
+	</xsd:simpleType>
+	<xsd:complexType name="SicexFechaHora">
+		<xsd:annotation>
+			<xsd:documentation>
+				Tipo:Fecha AEM
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+			<xsd:element ref="aem:fechaHoraValida"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="SicexAdjunto">
+		<xsd:annotation>
+			<xsd:documentation>
+				Tipo:Adjunto AEM
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+			<xsd:element name="SicexAdjunto" type="aem:AdjuntosBinariosType"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="SicexRut">
+		<xsd:annotation>
+			<xsd:documentation>
+				Tipo: Rut AEM
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+			<xsd:choice>
+				<xsd:element name="SicexRut" type="aem:runType"/>
+				<xsd:element name="Pasaporte" type="aem:SicexStringSeis">
+					<xsd:annotation>
+						<xsd:documentation>
+							Tipo:Pasaporte
+						</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+			</xsd:choice>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="SicexCorreoElectronico">
+		<xsd:annotation>
+			<xsd:documentation>
+				Tipo: Correo Electronico AEM
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+			<xsd:element name="SicexCorreoElectronico" type="aem:DireccionEmailType"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="SicexNombres">
+		<xsd:annotation>
+			<xsd:documentation>
+				Tipo: Nombres y apellidos AEM
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+			<xsd:choice>
+				<xsd:element name="SicexNombres" type="aem:nombreType" minOccurs="0" maxOccurs="1"/>
+				<xsd:element name="RazonSocial" type="aem:SicexStringSeis" minOccurs="0" maxOccurs="1">
+					<xsd:annotation>
+						<xsd:documentation>
+							Tipo: Razon social
+						</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+			</xsd:choice>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="SicexTelefono">
+		<xsd:annotation>
+			<xsd:documentation>
+				Tipo: Telefono AEM
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+			<xsd:element name="SicexTelefono" type="aem:TelefonoType"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<!-- Revisar debido a que atributo use = required no funciona con este Type -->
+	<!-- <xsd:attribute name="SchemaVersion" type="xsd:NMTOKEN" -->
+	<!-- fixed="1.0"> -->
+	<!-- <xsd:annotation> -->
+	<!-- <xsd:documentation> -->
+	<!-- Atributo que propaga la version del esquema utilizada en las instancias 
+		XML -->
+	<!-- que occupan este tipo de dato -->
+	<!-- </xsd:documentation> -->
+	<!-- </xsd:annotation> -->
+	<!-- </xsd:attribute> -->
+</xsd:schema>

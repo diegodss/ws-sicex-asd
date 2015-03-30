@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Archivo XML de muestra generado con XMLSpy v2015 sp2 (http://www.altova.com)-->
+<SRIINIO018Consulta xmlns="http://valida.aem.gob.cl" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:n1="http://www.altova.com/samplexml/other-namespace" SchemaVersion="1" xsi:schemaLocation="http://valida.aem.gob.cl SRIINIO018Consulta-v1-0.xsd">
+	<Cabecera SchemaVersion="1">
+		<CodigoMensaje>M1.109</CodigoMensaje>
+		<TransaccionId>TRN201501010000000000</TransaccionId>
+		<NumeroVersion>1</NumeroVersion>
+		<Destinatario>SAG</Destinatario>
+		<Remitente>HACIENDA</Remitente>
+		<IdRuce>20150101IMP0000000000</IdRuce>
+		<FechaCreacionRuce>
+			<fechaHoraValida>2001-12-17T09:30:47Z</fechaHoraValida>
+		</FechaCreacionRuce>
+		<EstadoRuce>Enviado</EstadoRuce>
+		<FechaEstadoRuce>
+			<fechaHoraValida>2001-12-17T09:30:47Z</fechaHoraValida>
+		</FechaEstadoRuce>
+	</Cabecera>
+	<Inspeccion SchemaVersion="1">
+		<DocumentoIngreso SchemaVersion="1">
+			<NumeroDocumentoIngreso>5426356</NumeroDocumentoIngreso>
+		</DocumentoIngreso>
+		<Aclaracion SchemaVersion="1">
+			<NumeroAclaracion>25325</NumeroAclaracion>
+			<FechaAclaracion>
+				<fechaHoraValida>2001-12-17T09:30:47Z</fechaHoraValida>
+			</FechaAclaracion>
+			<ObservacionAclaracion>Observacion aclaracion1</ObservacionAclaracion>
+			<DocumentosAdjuntos>
+				<SicexAdjunto SchemaVersion="1.0">
+					<Cantidad>1</Cantidad>
+					<ArchivoBinario SchemaVersion="1.0">
+						<Nombre>archivo8</Nombre>
+						<TipoContenido>Documentos</TipoContenido>
+						<CantidadBytes>90</CantidadBytes>
+						<DataCodificada>UjBsR09EbGhjZ0dTQUxNQUFBUUNBRU1tQ1p0dU1GUXhEUzhi</DataCodificada>
+						<Descripcion>Descripcion Documentos1</Descripcion>
+					</ArchivoBinario>
+				</SicexAdjunto>
+			</DocumentosAdjuntos>
+		</Aclaracion>
+	</Inspeccion>
+</SRIINIO018Consulta>

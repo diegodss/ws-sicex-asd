@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:con="http://eviware.com/soapui/config" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:aem="http://valida.aem.gob.cl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://valida.aem.gob.cl">
+	<wsdl:documentation>
+Documentacion
+</wsdl:documentation>
+	<wsdl:types>
+		<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:aem="http://valida.aem.gob.cl" targetNamespace="http://valida.aem.gob.cl" elementFormDefault="qualified">
+			<xsd:include schemaLocation="http://valida.aem.gob.cl/documentales/AEM/sobre.xsd"/>
+		</xsd:schema>
+	</wsdl:types>
+	<wsdl:message name="SNITRTR023Request">
+		<wsdl:part name="SNITRTR023Request" element="aem:sobre">
+</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="SNITRTR023Response">
+		<wsdl:part name="SNITRTR023Response" element="aem:sobre">
+</wsdl:part>
+	</wsdl:message>
+	<wsdl:portType name="SNITRTR023">
+		<wsdl:operation name="getSNITRTR023">
+			<wsdl:input message="aem:SNITRTR023Request">
+</wsdl:input>
+			<wsdl:output message="aem:SNITRTR023Response">
+</wsdl:output>
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:binding name="SNITRTR023Soap" type="aem:SNITRTR023">
+		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+		<wsdl:operation name="getSNITRTR023">
+			<soap:operation soapAction="http://valida.aem.gob.cl/getSNITRTR023"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:service name="SNITRTR023Service">
+		<wsdl:port name="SNITRTR023SoapPort" binding="aem:SNITRTR023Soap">
+			<soap:address location="https://SICEX.cl/Interoperabilidad/SNITRTR023"/>
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

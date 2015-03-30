@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Archivo XML de muestra generado con XMLSpy v2015 sp2 (x64) (http://www.altova.com)-->
+<SCIOIUD024Consulta xmlns="http://valida.aem.gob.cl" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:n1="http://www.altova.com/samplexml/other-namespace" SchemaVersion="1" xsi:schemaLocation="http://valida.aem.gob.cl SCIOIUD024Consulta-v1-0.xsd">
+	<Cabecera SchemaVersion="1">
+		<CodigoMensaje>M2.111</CodigoMensaje>
+		<TransaccionId>TRN201501010000000000</TransaccionId>
+		<NumeroVersion>0</NumeroVersion>
+		<Destinatario>HACIENDA</Destinatario>
+		<Remitente>SAG</Remitente>
+		<IdRuce>20150101IMP0000000000</IdRuce>
+		<FechaCreacionRuce>
+			<fechaHoraValida>2001-12-17T09:30:47Z</fechaHoraValida>
+		</FechaCreacionRuce>
+		<EstadoRuce>Enviado</EstadoRuce>
+		<FechaEstadoRuce>
+			<fechaHoraValida>2001-12-17T09:30:47Z</fechaHoraValida>
+		</FechaEstadoRuce>
+	</Cabecera>
+	<UsoYDisposicion SchemaVersion="1">
+		<IdSolicitud>CODSICEX0002</IdSolicitud>
+		<EstadoSolicitud>UDDPP</EstadoSolicitud>
+		<Mercancia SchemaVersion="1">
+			<Item SchemaVersion="1">
+				<NumeroItem>1</NumeroItem>
+				<EstadoItem>UDTMP</EstadoItem>
+				<CodigoPrestacion>34567798</CodigoPrestacion>
+				<Producto SchemaVersion="1">
+					<CodigoProducto>040000000004</CodigoProducto>
+				</Producto>
+				<TomaDeMuestra SchemaVersion="1">
+					<ValorExamen>500000</ValorExamen>
+					<Moneda>CLP</Moneda>
+					<Laboratorio SchemaVersion="1">
+						<RutLaboratorio>
+							<SicexRut>
+								<numero>53546576</numero>
+								<dv>0</dv>
+							</SicexRut>
+						</RutLaboratorio>
+						<NombreLaboratorio>Laboratorio Central</NombreLaboratorio>
+						<DireccionLaboratorio>Direccion Laboratorio</DireccionLaboratorio>
+						<TelefonoLaboratorio>
+							<SicexTelefono>
+								<CodigoPais>67</CodigoPais>
+								<Prefijo>435</Prefijo>
+								<Numero>8768767</Numero>
+								<Anexo>987</Anexo>
+							</SicexTelefono>
+						</TelefonoLaboratorio>
+					</Laboratorio>
+				</TomaDeMuestra>
+			</Item>
+		</Mercancia>
+	</UsoYDisposicion>
+</SCIOIUD024Consulta>

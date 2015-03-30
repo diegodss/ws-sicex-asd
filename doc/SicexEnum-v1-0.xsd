@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:aem="http://valida.aem.gob.cl"
+	targetNamespace="http://valida.aem.gob.cl" elementFormDefault="qualified"
+	attributeFormDefault="unqualified">
+	<xsd:annotation>
+		<xsd:documentation>
+			Nombre Esquema: Sicex Enum
+			Esquema: Enum.
+		</xsd:documentation>
+		<xsd:appinfo>
+			<dc:title>Schema de Sicex Enum .</dc:title>
+			<dc:subject> .</dc:subject>
+			<dc:creator>
+				Consorsio everis/Crimson Logic.
+			</dc:creator>
+			<dc:contributor>Consorcio everis/Crimson Logic</dc:contributor>
+			<dc:date>2014-12-22</dc:date>
+			<dc:description>
+				Schema de ... para uso en esquemas del Gobierno
+				de
+				Chile
+			</dc:description>
+			<dc:identifier>
+				http://valida.aem.gob.cl/basales/SicexEnum-v1-0.xsd
+			</dc:identifier>
+			<dc:format>text/xml</dc:format>
+			<dcterms:created>2014-12-22</dcterms:created>
+			<dc:type>XML Schema</dc:type>
+			<dc:language>es</dc:language>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:simpleType name="SicexEnum">
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="PCAPR">
+				<xsd:annotation>
+					<xsd:documentation>Pre-carga Aprobada</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="PCREC">
+				<xsd:annotation>
+					<xsd:documentation>Pre-carga Rechazada</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="DOACP">
+				<xsd:annotation>
+					<xsd:documentation>Documento de OIG Aceptado y Pendiente de
+						Pago</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="DOACN">
+				<xsd:annotation>
+					<xsd:documentation>Documento de OIG Aceptado y pago No
+						aplica</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="DONAC">
+				<xsd:annotation>
+					<xsd:documentation>Documento de OIG No aceptado </xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="DOAPR">
+				<xsd:annotation>
+					<xsd:documentation>Documento de OIG Aprobado</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="DOAPI">
+				<xsd:annotation>
+					<xsd:documentation>Documento de OIG Aprobado e Inspección
+						Pendiente</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="DOAPD">
+				<xsd:annotation>
+					<xsd:documentation>Documento de OIG Aprobado Definitivo</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="DONHL">
+				<xsd:annotation>
+					<xsd:documentation>Documento de OIG No ha Lugar</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="DOREC">
+				<xsd:annotation>
+					<xsd:documentation>Documento de OIG Rechazado</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="DAACP">
+				<xsd:annotation>
+					<xsd:documentation>Documento de Aduana Aceptado</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="DAREC">
+				<xsd:annotation>
+					<xsd:documentation>Documento de Aduana Rechazado</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="DAACD">
+				<xsd:annotation>
+					<xsd:documentation>Documento de Aduana Aceptado Inspección-
+						Documental</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="DAACF">
+				<xsd:annotation>
+					<xsd:documentation>Documento de Aduana Aceptado -Inspección
+						Física</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="DAACL">
+				<xsd:annotation>
+					<xsd:documentation>Documento de Aduana Aceptado
+						Inspección-Libre</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="ZPRLI">
+				<xsd:annotation>
+					<xsd:documentation>Libre</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="ZPRDO">
+				<xsd:annotation>
+					<xsd:documentation>Documental</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="ZPRFI">
+				<xsd:annotation>
+					<xsd:documentation>Física</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="ZPIAU">
+				<xsd:annotation>
+					<xsd:documentation>Resultado Inspeccion Autorizado</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="ZPINA">
+				<xsd:annotation>
+					<xsd:documentation>Resultado Inspeccion No Autorizado</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="ZPCFI">
+				<xsd:annotation>
+					<xsd:documentation>Cambio de examen a Físico</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="ZPCDO">
+				<xsd:annotation>
+					<xsd:documentation>Cambio de Examen a Documental</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="ZPSAU">
+				<xsd:annotation>
+					<xsd:documentation>Salida Zona Primaria Autorizado</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="ZPSNA">
+				<xsd:annotation>
+					<xsd:documentation>Salida Zona Primaria No Autorizado</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="IONRA">
+				<xsd:annotation>
+					<xsd:documentation>Inspeccion OIG No Requiere Antecedentes</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="IORAN">
+				<xsd:annotation>
+					<xsd:documentation>Inspeccion OIG Requiere Antecedentes</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="IOREC">
+				<xsd:annotation>
+					<xsd:documentation>Inspeccion OIG Rechazado</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="IORED">
+				<xsd:annotation>
+					<xsd:documentation>Inspeccion OIG Rechazo Definitivo</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="IOSUS">
+				<xsd:annotation>
+					<xsd:documentation>Inspeccion OIG Suspendido</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="IOAPO">
+				<xsd:annotation>
+					<xsd:documentation>Inspeccion OIG Aprobado con Observaciones</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="IOAPR">
+				<xsd:annotation>
+					<xsd:documentation>Inspeccion OIG Aprobado</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="IOAPD">
+				<xsd:annotation>
+					<xsd:documentation>Inspeccion OIG Aprobado Definitivo</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UDNAC">
+				<xsd:annotation>
+					<xsd:documentation>Uso y Disposicion No Aceptado</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UDACP">
+				<xsd:annotation>
+					<xsd:documentation>Uso y Disposicion Aceptado con Pago</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UDDNA">
+				<xsd:annotation>
+					<xsd:documentation>Uso y Disposicion No Aceptado</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UDDAP">
+				<xsd:annotation>
+					<xsd:documentation>Uso y Disposicion Aceptado con Pago</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UDDAN">
+				<xsd:annotation>
+					<xsd:documentation>Uso y Disposicion Aceptado Sin Pago</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UDACN">
+				<xsd:annotation>
+					<xsd:documentation>Uso y Disposicion Aceptado sin Pago</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UDFPS">
+				<xsd:annotation>
+					<xsd:documentation>Uso y Disposicion Fíjese Periodo de
+						Seguridad</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UDSTM">
+				<xsd:annotation>
+					<xsd:documentation>Uso y Disposicion Sin Toma de Muestras</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UDRTM">
+				<xsd:annotation>
+					<xsd:documentation>Uso y Disposicion Requiere Toma de
+						Muestras</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UDSIN">
+				<xsd:annotation>
+					<xsd:documentation>Uso y Disposicion No requiere Inspección</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UDDPP">
+				<xsd:annotation>
+					<xsd:documentation>Uso y Disposicion Pendiente de
+						Pronunciamiento</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UDTMP">
+				<xsd:annotation>
+					<xsd:documentation>Uso y Disposicion Toma de Muestras con
+						Pago</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UDTMS">
+				<xsd:annotation>
+					<xsd:documentation>Uso y Disposicion Toma de Muestras sin
+						Pago</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UDTML">
+				<xsd:annotation>
+					<xsd:documentation>Uso y Disposicion Toma de Muestras con selección de
+						laboratorio</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UDSPS">
+				<xsd:annotation>
+					<xsd:documentation>Uso y Disposicion Sin Período de
+						Seguridad</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UDNRA">
+				<xsd:annotation>
+					<xsd:documentation>Uso y Disposicion No Requiere
+						Antecedentes</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UDRAA">
+				<xsd:annotation>
+					<xsd:documentation>Uso y Disposicion Requiere Antecedentes
+						Adicionales</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UDAUT">
+				<xsd:annotation>
+					<xsd:documentation>Uso y Disposicion Autorizado</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UDNHL">
+				<xsd:annotation>
+					<xsd:documentation>Uso y Disposicion No ha Lugar</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UDREC">
+				<xsd:annotation>
+					<xsd:documentation>Uso y Disposicion Rechazado</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UDRND">
+				<xsd:annotation>
+					<xsd:documentation>Uso y Disposicion Rechazo no definitivo</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UDRED">
+				<xsd:annotation>
+					<xsd:documentation>Uso y Disposicion Rechazo definitivo</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="RUOBS">
+				<xsd:annotation>
+					<xsd:documentation>RUCE Obsoleto</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="DAANU">
+				<xsd:annotation>
+					<xsd:documentation>Documento de Aduana Anulado</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="DOANU">
+				<xsd:annotation>
+					<xsd:documentation>Documento de OIG Anulado</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="DOVIG">
+				<xsd:annotation>
+					<xsd:documentation>Documento de OIG Vigente</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="DAPRA">
+				<xsd:annotation>
+					<xsd:documentation>Prórroga Aceptada</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="DAPRR">
+				<xsd:annotation>
+					<xsd:documentation>Prórroga Rechazada</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="DOIRE">
+				<xsd:annotation>
+					<xsd:documentation>Informado Recurso de Reposición en
+						evaluación</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UDIRE">
+				<xsd:annotation>
+					<xsd:documentation>Informado Recurso de Reposición en
+						Evaluación</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="IOIRE">
+				<xsd:annotation>
+					<xsd:documentation>Informado Recurso de Reposición en
+						Evaluación</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UDDAC">
+				<xsd:annotation>
+					<xsd:documentation>Disposicion Aceptada</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="IODAC">
+				<xsd:annotation>
+					<xsd:documentation>Disposicion Aceptada</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="DOPAC">
+				<xsd:annotation>
+					<xsd:documentation>Documento de OIG Pago Aceptada</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="DAPAC">
+				<xsd:annotation>
+					<xsd:documentation>Documento de Aduana Pago Aceptada</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UDPIA">
+				<xsd:annotation>
+					<xsd:documentation>Uso y Disposicion Pago Inicial Aceptada</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UDPTA">
+				<xsd:annotation>
+					<xsd:documentation>Uso y Disposicion Pago Toma de Muestras
+						Aceptada</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="ADCAP">
+				<xsd:annotation>
+					<xsd:documentation>Advertencia Creación Aprobada</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="ADCRE">
+				<xsd:annotation>
+					<xsd:documentation>Advertencia Creación Rechazada</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="ADMAP">
+				<xsd:annotation>
+					<xsd:documentation>Advertencia Modificación Aprobada</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="ADMRE">
+				<xsd:annotation>
+					<xsd:documentation>Advertencia Modificación Rechazada</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="ADEAP">
+				<xsd:annotation>
+					<xsd:documentation>Advertencia Eliminación Aprobada</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="ADERE">
+				<xsd:annotation>
+					<xsd:documentation>Advertencia Eliminación Rechazada</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="HVACP">
+				<xsd:annotation>
+					<xsd:documentation>Hoja de Vehículo Aceptada</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="HVREC">
+				<xsd:annotation>
+					<xsd:documentation>Hoja de Vehículo Rechazada</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="RUCUA">
+				<xsd:annotation>
+					<xsd:documentation>Ruce con Cuarentena</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+		</xsd:restriction>
+	</xsd:simpleType>
+</xsd:schema>

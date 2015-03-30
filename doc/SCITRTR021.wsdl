@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:con="http://eviware.com/soapui/config" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:aem="http://valida.aem.gob.cl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://valida.aem.gob.cl">
+	<wsdl:documentation>
+Documentacion
+</wsdl:documentation>
+	<wsdl:types>
+		<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:aem="http://valida.aem.gob.cl" targetNamespace="http://valida.aem.gob.cl" elementFormDefault="qualified">
+			<xsd:include schemaLocation="http://valida.aem.gob.cl/documentales/AEM/sobre.xsd"/>
+		</xsd:schema>
+	</wsdl:types>
+	<wsdl:message name="SCITRTR021Request">
+		<wsdl:part name="SCITRTR021Request" element="aem:sobre">
+</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="SCITRTR021Response">
+		<wsdl:part name="SCITRTR021Response" element="aem:sobre">
+</wsdl:part>
+	</wsdl:message>
+	<wsdl:portType name="SCITRTR021">
+		<wsdl:operation name="getSCITRTR021">
+			<wsdl:input message="aem:SCITRTR021Request">
+</wsdl:input>
+			<wsdl:output message="aem:SCITRTR021Response">
+</wsdl:output>
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:binding name="SCITRTR021Soap" type="aem:SCITRTR021">
+		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+		<wsdl:operation name="getSCITRTR021">
+			<soap:operation soapAction="http://valida.aem.gob.cl/getSCITRTR021"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:service name="SCITRTR021Service">
+		<wsdl:port name="SCITRTR021SoapPort" binding="aem:SCITRTR021Soap">
+			<soap:address location="https://SICEX.cl/Interoperabilidad/SCITRTR021"/>
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

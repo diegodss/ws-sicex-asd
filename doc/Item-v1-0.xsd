@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:aem="http://valida.aem.gob.cl" targetNamespace="http://valida.aem.gob.cl" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0">
+	<xsd:include schemaLocation="Producto-v1-0.xsd"/>
+	<xsd:include schemaLocation="Disposicion-v1-0.xsd"/>
+	<xsd:include schemaLocation="OtroImpuesto-v1-0.xsd"/>
+	<xsd:include schemaLocation="TiposSicex-v1-0.xsd"/>
+	<xsd:include schemaLocation="Observacion-v1-0.xsd"/>
+	<xsd:include schemaLocation="EstablecimientoOrigen-v1-0.xsd"/>
+	<xsd:include schemaLocation="TomaDeMuestra-v1-0.xsd"/>
+	<xsd:include schemaLocation="Aclaracion-v1-0.xsd"/>
+	<xsd:include schemaLocation="SicexEnum-v1-0.xsd"/>
+	<xsd:annotation>
+		<xsd:documentation>Nombre Esquema: Item-v1-0.xsd Esquema: Basal  </xsd:documentation>
+		<xsd:appinfo>
+			<dc:title>Schema de Item.</dc:title>
+			<dc:subject> .</dc:subject>
+			<dc:creator> Consorsio everis/Crimson Logic. </dc:creator>
+			<dc:contributor>Consorcio everis/Crimson Logic</dc:contributor>
+			<dc:date>2014-12-22</dc:date>
+			<dc:description> Schema de ... para uso en esquemas del Gobierno de Chile </dc:description>
+			<dc:identifier> http://valida.aem.gob.cl/basales/item-v1-0.xsd </dc:identifier>
+			<dc:format>text/xml</dc:format>
+			<dcterms:created>2014-12-22</dcterms:created>
+			<dc:type>XML Schema</dc:type>
+			<dc:language>es</dc:language>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:complexType name="ItemType">
+		<xsd:sequence>
+			<xsd:element name="NumeroItem" type="aem:SicexNumericoTres" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 426, 1058
+                        Descripcion: Item->
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="CodigoArancel" type="aem:SicexStringTres" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 428
+                        Descripcion: Item->
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="ServiciosPublicosCompetentes" type="aem:SicexStringDiez" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 1473
+                        Descripcion: Item->
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="UsoPrevisto" type="aem:SicexStringSeis" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 103, 740
+                        Descripcion: Item->
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="CodigoPaisProduccion" type="aem:SicexStringDos" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 343, 30
+                        Descripcion: Item->
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="GlosaPaisProduccion" type="aem:SicexStringCuatro" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 344
+                        Descripcion: Item->
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="ValorCIF" type="aem:SicexNumericoDiez" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 429
+                        Descripcion: Item->
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="MontoAjuste" type="aem:SicexNumericoDiez" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Numero Secuencia Matriz Armonizacion: 436
+                        Descripcion: Item->
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="SignoDelAjuste" type="aem:SicexStringUno" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: 437
+                        Descripcion: Item->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="Cantidad" type="aem:SicexNumericoDiez" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: 438, 27
+                        Descripcion: Item->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="CodigoUnidadDeMedida" type="aem:SicexNumericoDos" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: 439
+                        Descripcion: Item->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="CantidadDeMercanciasEstimada" type="aem:SicexBooleano" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: 440
+                        Descripcion: Item->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="PrecioUnitarioFOB" type="aem:SicexNumericoDiez" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: 441
+                        Descripcion: Item->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="CodigoArancelDelTratado" type="aem:SicexStringTres" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: 442
+                        Descripcion: Item->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="NumeroCorrelativoArancel" type="aem:SicexNumericoDos" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: 443
+                        Descripcion: Item->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="CodigoAcuerdoComercial" type="aem:SicexNumericoTres" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: 444
+                        Descripcion: Item->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="SujetoACupo" type="aem:SicexBooleano" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: 445
+                        Descripcion: Item->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="PorcentajeAdvalorem" type="aem:SicexNumericoNueve" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: 446
+                        Descripcion: Item->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="CodigoCuentaAdvalorem" type="aem:SicexNumericoTres" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: 447
+                        Descripcion: Item->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="MontoCuentaAdvalorem" type="aem:SicexNumericoDiez" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: 448
+                        Descripcion: Item->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="CaracteristicaEspecial" type="aem:SicexStringCuatro" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: s/n114
+                        Descripcion: Item->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="PesoUnitario" type="aem:SicexNumericoCuatro" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: s/n115
+                        Descripcion: Item->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="CodigoUnidadDeMedidaPesoUnitario" type="aem:SicexNumericoDos" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: s/n116
+                        Descripcion: Item->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="OtraDescripcion" type="aem:SicexStringDiez" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: s/n122
+                        Descripcion: Item->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="ObservacionOIG" type="aem:SicexStringNueve" minOccurs="0" maxOccurs="99">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: 32
+                        Descripcion: Item->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="Lote" type="aem:SicexStringSeis" minOccurs="0" maxOccurs="99">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: 42, 627
+                        Descripcion: Item->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="NombreProductor" type="aem:SicexStringNueve" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: 196
+                        Descripcion: Item->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="CodigoArancelarioFinal" type="aem:SicexStringTres" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: 241
+                        Descripcion: Item->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="MercadoDestino" type="aem:SicexStringCinco" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: 242
+                        Descripcion: Item->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="NumeroResolucionSubpesca" type="aem:SicexStringCuatro" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: 255
+                        Descripcion: Item->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="PesoNeto" type="aem:SicexNumericoOnce" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: 284, 319
+                        Descripcion: Item->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="PesoBruto" type="aem:SicexNumericoDiez" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: 285, 321
+                        Descripcion: Item->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="DocumentosAdjuntos" type="aem:SicexAdjunto" minOccurs="0" maxOccurs="99">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: 961
+                        Descripcion: Item->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="Direccionproductor" type="aem:SicexStringCinco" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: 1391
+                        Descripcion: Item->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="CuarentenaPostFrontera" type="aem:SicexStringSeis" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: 699
+                        Descripcion: Item->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="NumeroAutorizacionExportacion" type="aem:SicexStringCuatro" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: s/n130
+                        Descripcion: Item->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="NombreProducto" type="aem:SicexStringNueve" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: 427
+                        Descripcion: Item->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="EstadoCondicionProducto" type="aem:SicexEnum" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: 1380
+                        Descripcion: Item->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="Observaciones" type="aem:SicexStringDiez" minOccurs="0" maxOccurs="99">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: s/n52
+                        Descripcion: Item->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="EstadoItem" type="aem:SicexEnum" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: s/n36
+                        Descripcion: Item->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="CodigoPrestacion" type="aem:SicexStringSeis" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+					    Numero Secuencia Matriz Armonizacion: 954
+                        Descripcion: Item->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="Producto" type="aem:ProductoType" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						<!-- Documentar -->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="OtroImpuesto" type="aem:OtroImpuestoType" minOccurs="0" maxOccurs="4">
+				<xsd:annotation>
+					<xsd:documentation>
+						<!-- Documentar -->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="Observacion" type="aem:ObservacionType" minOccurs="0" maxOccurs="4">
+				<xsd:annotation>
+					<xsd:documentation>
+						<!-- Documentar -->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="EstablecimientoOrigen" type="aem:EstablecimientoOrigenType" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						<!-- Documentar -->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="TomaDeMuestra" type="aem:TomaDeMuestraType" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						<!-- Documentar -->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="Disposicion" type="aem:DisposicionType" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						<!-- Documentar -->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="Aclaracion" type="aem:AclaracionType" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						<!-- Documentar -->
+						.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+		</xsd:sequence>
+		<xsd:attribute name="SchemaVersion" type="xsd:decimal" use="required" fixed="1.0">
+			<xsd:annotation>
+				<xsd:documentation> Version del esquema. Permite la persistencia de la version del
+					esquema en instancias xml (Guia de Desarrollo y Uso De Esquemas De Gobierno v1.1
+					- 5.4.3) </xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
+	</xsd:complexType>
+</xsd:schema>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Archivo XML de muestra generado con XMLSpy v2015 sp2 (x64) (http://www.altova.com)-->
+<SNIOIUD027Consulta xmlns="http://valida.aem.gob.cl" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:n1="http://www.altova.com/samplexml/other-namespace" SchemaVersion="1" xsi:schemaLocation="http://valida.aem.gob.cl SNIOIUD027Consulta-v1-0.xsd">
+	 <Cabecera SchemaVersion="1">
+		<CodigoMensaje>N1.119</CodigoMensaje>
+		<TransaccionId>TRN201501010000000000</TransaccionId>
+		<NumeroVersion>0</NumeroVersion>
+		<Destinatario>SAG</Destinatario>
+		<Remitente>HACIENDA</Remitente>
+		<IdRuce>20150101IMP0000000000</IdRuce>
+		<FechaCreacionRuce>
+			<fechaHoraValida>2001-12-17T09:30:47Z</fechaHoraValida>
+		</FechaCreacionRuce>
+		<EstadoRuce>Enviado</EstadoRuce>
+		<FechaEstadoRuce>
+			<fechaHoraValida>2001-12-17T09:30:47Z</fechaHoraValida>
+		</FechaEstadoRuce>
+	</Cabecera>
+	<IdentificacionUsuario SchemaVersion="1">
+		<DatosOrganizacion SchemaVersion="1">
+			<RutOrganizacion>
+				<SicexRut>
+					<numero>83443342</numero>
+					<dv>0</dv>
+				</SicexRut>
+			</RutOrganizacion>
+			<NombreOrganizacion>Organizacion Planta</NombreOrganizacion>
+			<DomicilioOrganizacion>Domicilio Organizacion5</DomicilioOrganizacion>
+			<GiroComercialOrganizacion>Giro comercial Ventas</GiroComercialOrganizacion>
+			<DatosSuborganizacion SchemaVersion="1">
+				<RutSubOrganizacion>
+					<SicexRut>
+						<numero>73728434</numero>
+						<dv>0</dv>
+					</SicexRut>
+				</RutSubOrganizacion>
+				<NombreSubOrganizacion>Sub Organizacion Tierra</NombreSubOrganizacion>
+				<DomicilioSubOrganizacion>Domicilio Sub Organizacion2</DomicilioSubOrganizacion>
+				<GiroComercialSubOrganizacion>Giro Servicios</GiroComercialSubOrganizacion>
+			</DatosSuborganizacion>
+		</DatosOrganizacion>
+		<DatosUsuario SchemaVersion="1">
+			<RutUsuario>
+				<SicexRut>
+					<numero>29325524</numero>
+					<dv>0</dv>
+				</SicexRut>
+			</RutUsuario>
+			<Perfil>Perfil Usuario</Perfil>
+			<NombreUsuario>Andres Peña</NombreUsuario>
+		</DatosUsuario>
+	</IdentificacionUsuario>
+	<UsoYDisposicion SchemaVersion="1">
+		<FolioResolucion>65872</FolioResolucion>
+		<FechaResolucion>
+			<fechaHoraValida>2001-12-17T10:30:47Z</fechaHoraValida>
+		</FechaResolucion>
+		<NumeroReferenciaInterna>34456676</NumeroReferenciaInterna>
+		<IdSolicitud>CODSICEX0002</IdSolicitud>
+		<Mercancia SchemaVersion="1">
+			<Item SchemaVersion="1">
+				<NumeroItem>1</NumeroItem>
+				<Producto SchemaVersion="1">
+					<CodigoProducto>040000000004</CodigoProducto>
+				</Producto>
+				<Aclaracion SchemaVersion="1">
+					<NumeroAclaracion>67587</NumeroAclaracion>
+					<FechaAclaracion>
+						<fechaHoraValida>2001-12-17T09:30:47Z</fechaHoraValida>
+					</FechaAclaracion>
+					<EncabezadoAclaracion>Encabezado Aclaracion 2</EncabezadoAclaracion>
+					<ObservacionAclaracion>Observaciones Aclaracion</ObservacionAclaracion>
+					<DocumentosAdjuntos>
+						<SicexAdjunto SchemaVersion="1.0">
+							<Cantidad>1</Cantidad>
+							<ArchivoBinario SchemaVersion="1.0">
+								<Nombre>Archivos Aclaracion2</Nombre>
+								<TipoContenido>Documentos2</TipoContenido>
+								<CantidadBytes>4000</CantidadBytes>
+								<DataCodificada>UjBsR09EbGhjZ0dTQUxNQUFBUUNBRU1tQ1p0dU1GUXhEUzhi</DataCodificada>
+								<Descripcion>Documentos Aclaracion2</Descripcion>
+							</ArchivoBinario>
+						</SicexAdjunto>
+					</DocumentosAdjuntos>
+				</Aclaracion>
+			</Item>
+		</Mercancia>
+	</UsoYDisposicion>
+</SNIOIUD027Consulta>

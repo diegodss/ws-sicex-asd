@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:con="http://eviware.com/soapui/config" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:aem="http://valida.aem.gob.cl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://valida.aem.gob.cl">
+	<wsdl:documentation>
+Documentacion
+</wsdl:documentation>
+	<wsdl:types>
+		<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:aem="http://valida.aem.gob.cl" targetNamespace="http://valida.aem.gob.cl" elementFormDefault="qualified">
+			<xsd:include schemaLocation="http://valida.aem.gob.cl/documentales/AEM/sobre.xsd"/>
+		</xsd:schema>
+	</wsdl:types>
+	<wsdl:message name="SCIOIUD024Request">
+		<wsdl:part name="SCIOIUD024Request" element="aem:sobre">
+</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="SCIOIUD024Response">
+		<wsdl:part name="SCIOIUD024Response" element="aem:sobre">
+</wsdl:part>
+	</wsdl:message>
+	<wsdl:portType name="SCIOIUD024">
+		<wsdl:operation name="getSCIOIUD024">
+			<wsdl:input message="aem:SCIOIUD024Request">
+</wsdl:input>
+			<wsdl:output message="aem:SCIOIUD024Response">
+</wsdl:output>
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:binding name="SCIOIUD024Soap" type="aem:SCIOIUD024">
+		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+		<wsdl:operation name="getSCIOIUD024">
+			<soap:operation soapAction="http://valida.aem.gob.cl/getSCIOIUD024"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:service name="SCIOIUD024Service">
+		<wsdl:port name="SCIOIUD024SoapPort" binding="aem:SCIOIUD024Soap">
+			<soap:address location="https://SICEX.cl/Interoperabilidad/SCIOIUD024"/>
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

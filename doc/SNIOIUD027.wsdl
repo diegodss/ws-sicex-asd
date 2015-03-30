@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:con="http://eviware.com/soapui/config" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:aem="http://valida.aem.gob.cl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://valida.aem.gob.cl">
+	<wsdl:documentation>
+Documentacion
+</wsdl:documentation>
+	<wsdl:types>
+		<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:aem="http://valida.aem.gob.cl" targetNamespace="http://valida.aem.gob.cl" elementFormDefault="qualified">
+			<xsd:include schemaLocation="http://valida.aem.gob.cl/documentales/AEM/sobre.xsd"/>
+		</xsd:schema>
+	</wsdl:types>
+	<wsdl:message name="SNIOIUD027Request">
+		<wsdl:part name="SNIOIUD027Request" element="aem:sobre">
+</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="SNIOIUD027Response">
+		<wsdl:part name="SNIOIUD027Response" element="aem:sobre">
+</wsdl:part>
+	</wsdl:message>
+	<wsdl:portType name="SNIOIUD027">
+		<wsdl:operation name="getSNIOIUD027">
+			<wsdl:input message="aem:SNIOIUD027Request">
+</wsdl:input>
+			<wsdl:output message="aem:SNIOIUD027Response">
+</wsdl:output>
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:binding name="SNIOIUD027Soap" type="aem:SNIOIUD027">
+		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+		<wsdl:operation name="getSNIOIUD027">
+			<soap:operation soapAction="http://valida.aem.gob.cl/getSNIOIUD027"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:service name="SNIOIUD027Service">
+		<wsdl:port name="SNIOIUD027SoapPort" binding="aem:SNIOIUD027Soap">
+			<soap:address location="https://SICEX.cl/Interoperabilidad/SNIOIUD027"/>
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>
