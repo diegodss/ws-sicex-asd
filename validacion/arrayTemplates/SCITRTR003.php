@@ -1,6 +1,8 @@
 <?php 
+
 $fields = array(
-					'RutImportador' => array('8','aem:runType','SicexRut','1'),	
+				'NumeroDocumentoIngreso'	=> array('50','xsd:string','SicexStringCinco','1'),	
+				'RutImportador' => array('8','aem:runType','SicexRut','1'),	
 				'NombreImportador'	=> array('30','aem:nombreType','SicexNombres','1'),	
 				'EmisorDocumentoComercial'	=> array('30','aem:nombreType','SicexNombres','1'),	
 				'NumeroDocumentoComercial'	=> array('100','xsd:string','SicexStringSeis','1'),	
@@ -46,8 +48,7 @@ $fields = array(
 				'DireccionInstalacionDestino'	=> array('50','xsd:string','SicexStringCinco','1'),	
 				'OficinaSSPP'	=> array('50','xsd:string','SicexStringCinco','0'),	
 				'FechaEstimadaLlegada'	=> array('"YYYY/MM/DD HH:MM:SS"','aem:fechaType','SicexFechaHora','0'),	
-				'NombreDirectorTecnico'	=> array('30','aem:nombreType','SicexNombres','0'),	
-				'NumeroDocumentoIngreso'	=> array('50','xsd:string','SicexStringCinco','1'),	
+				'NombreDirectorTecnico'	=> array('30','aem:nombreType','SicexNombres','0'),					
 				'NombreProductor'	=> array('30','xsd:string','SicexStringCuatro','1'),	
 				'NumeroTelefono'	=> array('50','xsd:string','SicexStringCinco','1'),	
 				'Email'	=> array('100','xsd:string','SicexStringSeis','1'),	

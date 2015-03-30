@@ -10,17 +10,17 @@
 */
 class validation extends io {
 
-	public $service; 		
+	public $service; 
+			
 	public function __construct($param) {		 	
 		$this->service = $param;
 	}
-	function valida ($vField,$vData, $templateArray){
+	function valida ($vField,$vData, $arrayLine){
 		
 	global $maxlenght;
 	
-	$result 		= false;
-	$fields 		= $templateArray->getTemplateArray();	
-	$arrayLine   	= $templateArray->getLineByField($vField);	
+	$result = false;
+
 	
 		If ( validation::validaArray( $arrayLine, $vField ) ) {
 			

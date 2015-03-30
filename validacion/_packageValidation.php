@@ -12,5 +12,6 @@ require_once("validationIo.php");
 require_once("validation.php");
 require_once("validationArrayWs.php");
 require_once("validationTemplateArray.php");
+require_once("validationXmlTemplate.php");
 require_once("validacionTransaction.php");
 ?>

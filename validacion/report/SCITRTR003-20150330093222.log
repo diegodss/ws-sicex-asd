@@ -1,0 +1,58 @@
+30.03.2015 09:32:22  => Mandatorio error : EmisorDocumentoComercial=>  
+30.03.2015 09:32:22  => Mandatorio error : CodigoPaisEmisorDocumentoComercial=>  
+30.03.2015 09:32:22  => Mandatorio error : ComunaInstalacionDestino=>?6  
+30.03.2015 09:32:22  => Mandatorio error : CodigoPuertoDeEmbarque=>?7  
+30.03.2015 09:32:22  => Mandatorio error : Cantidad=>?4  
+30.03.2015 09:32:22  => Mandatorio error : CodigoPuertoDeDesembarque=>?1  
+30.03.2015 09:32:22  => Mandatorio error : ComunaImportador=>?  
+30.03.2015 09:32:22  => Mandatorio error : ComunaRepresentanteLegal=>?  
+30.03.2015 09:32:22  => Mandatorio error : TipoDestinacion=>?  
+30.03.2015 09:32:22  => Mandatorio error : TotalBultos=>?9  
+30.03.2015 09:32:22  => Date error : FechaEmisionResolucion=>?8  
+30.03.2015 09:32:22  => Date error : FechaEstimadaLlegada=>?4  
+30.03.2015 09:32:22  => Mandatorio error : TipoReingreso=>  
+30.03.2015 09:32:22  => Mandatorio error : PesoNeto=>?7  
+30.03.2015 09:32:22  => Mandatorio error : PesoBruto=>?8  
+30.03.2015 09:32:22  => Mandatorio error : CodigoAduana=>?  
+30.03.2015 09:32:22  => Mandatorio error : GlosaPaisOrigen=>  
+30.03.2015 09:32:22  => Mandatorio error : DireccionEstablecimiento=>  
+30.03.2015 09:32:22  => Date error : FechaSolicitud=>t  
+30.03.2015 09:32:22  => Date error : FechaDocumentoIngreso=>u  
+30.03.2015 09:32:22  => Mandatorio error : NumeroItem=>q  
+30.03.2015 09:32:22  => Mandatorio error : DireccionProductor=>  
+30.03.2015 09:32:22  => Mandatorio error : SecuenciaAtributo=>?9  
+30.03.2015 09:32:22  => Date error : FechaCreacionRuce=>a  
+30.03.2015 09:32:22  => Mandatorio error : GIroComercialSubOrganizacion=>  
+30.03.2015 09:32:22  => Mandatorio error : RutUsuario=>  
+30.03.2015 09:32:22  => Mandatorio error : GlosaPaisDocumentoComercial=>  
+30.03.2015 09:32:22  => Date error : FechaEstadoRuce=>c  
+30.03.2015 09:32:22  => Boolean error : EsFijo=>?3  
+30.03.2015 09:32:22  => Mandatorio error : TipoDocumentoComercial=>  
+30.03.2015 09:32:22  => Mandatorio error : FechaDocumentoComercial=>  
+30.03.2015 09:32:22  => Mandatorio error : PesoUnitario=>?7  
+30.03.2015 09:32:22  => Mandatorio error : CodigoUnidadMedidaPesoUnitario=>  
+30.03.2015 09:32:22  => Mandatorio error : ViaDeTransporte=>?5  
+30.03.2015 09:32:22  => Mandatorio error : FechaRecepcionMercancias=>  
+30.03.2015 09:32:22  => Mandatorio error : RazonSocialEstablecimiento=>  
+30.03.2015 09:32:22  => Mandatorio error : NombreContactoEstablecimiento=>  
+30.03.2015 09:32:22  => length error: CodigoDeTransbordo=>?8  
+30.03.2015 09:32:22  => Mandatorio error : CodigoDeTransbordo=>?8  
+30.03.2015 09:32:22  => Mandatorio error : CodigoPuertoTransbordo=>?4  
+30.03.2015 09:32:22  => Mandatorio error : SecuencialTransbordo=>?3  
+30.03.2015 09:32:22  => Mandatorio error : NombreConsignante=>  
+30.03.2015 09:32:22  => Mandatorio error : DirecciónConsignante=>  
+30.03.2015 09:32:22  => Mandatorio error : CodigoPaisConsignante=>  
+30.03.2015 09:32:22  => Mandatorio error : CodigoTipoOperacion=>?  
+30.03.2015 09:32:22  => Mandatorio error : ValorCIF=>?1  
+30.03.2015 09:32:22  => Mandatorio error : MontoAjuste=>?2  
+30.03.2015 09:32:22  => length error: SignoDelAjuste=>?3  
+30.03.2015 09:32:22  => Mandatorio error : SignoDelAjuste=>?3  
+30.03.2015 09:32:22  => Mandatorio error : CodigoUnidadDeMedida=>?5  
+30.03.2015 09:32:22  => Boolean error : CantidadDeMercanciasEstimada=>?6  
+30.03.2015 09:32:22  => Mandatorio error : PrecioUnitarioFOB=>?7  
+30.03.2015 09:32:22  => Mandatorio error : NumeroCorrelativoArancel=>?9  
+30.03.2015 09:32:22  => Mandatorio error : CodigoAcuerdoComercial=>?1  
+30.03.2015 09:32:22  => Boolean error : SujetoACupo=>?2  
+30.03.2015 09:32:22  => Mandatorio error : PorcentajeAdvalorem=>?3  
+30.03.2015 09:32:22  => Mandatorio error : CodigoCuentaAdvalorem=>?4  
+30.03.2015 09:32:22  => Mandatorio error : MontoCuentaAdvalorem=>?5  

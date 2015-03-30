@@ -1,11 +1,29 @@
 <?php 
+error_reporting(E_ALL & ~E_NOTICE);
+
 require_once '_packageValidation.php';
 require_once '../../herramientas/print_r_reverse.php';
-	$arrWS 			= print_r_reverse($arryreversa);	
+		
 	$validator 		= new validation('SCITRTR003');
 	$arrayValidator = new arrayWs($validator);	
-	$result 		= $arrayValidator->validaArrWS($arrWS, $validator);
-	$file  			= $validator->printLogFile();	
+	
+	$arrayValidator->optEcho = "1";
+	
+	$arrWS 		= print_r_reverse($arryreversa);
+	//$xmlTemplate = new xmlTemplate();
+	//$arrWS = $xmlTemplate->getData();
+	
+	
+	if($_GET["p"] == "excel") {
+		$result 		= $arrayValidator->validaTemplateArray($arrWS, $validator);
+	} elseif (($_GET["p"] == "xml") ) {
+		$xmlTemplate = new xmlTemplate();
+		$arrWS = $xmlTemplate->getData();
+		$result 		= $arrayValidator->validaArrWS($arrWS, $validator);
+	} else {
+		$result 		= $arrayValidator->validaArrWS($arrWS, $validator);
+	}
+	echo($validator->printLogFile());	
 
 	//echo count($arrWs);
 	print_r ( "<br> VALIDACAO ". $validator->formatResult($result) . "<BR>");

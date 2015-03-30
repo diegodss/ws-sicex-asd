@@ -1,0 +1,72 @@
+30.03.2015 09:42:21  => Date error : FechaCreacionRuce=>2001-12-17T09:30:47Z  
+30.03.2015 09:42:21  => Date error : FechaEstadoRuce=>2001-12-17T09:30:47Z  
+30.03.2015 09:42:21  => Date error : FechaSolicitud=>2001-12-17T09:30:47Z  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: Nombre  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: TipoContenido  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: CantidadBytes  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: DataCodificada  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: Descripcion  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: CodigoUnidadDeMedidaPesoUnitario  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: Nombre  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: TipoContenido  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: CantidadBytes  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: DataCodificada  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: Descripcion  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: Direccionproductor  
+30.03.2015 09:42:21  => length error: CodigoObservacion=>Cod  
+30.03.2015 09:42:21  => Mandatorio error : CodigoObservacion=>Cod  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: Nombres  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: ApellidoPaterno  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: ApellidoMaterno  
+30.03.2015 09:42:21  => Date error : FechaEstimadaLlegada=>2001-12-17T09:30:47Z  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: Nombres  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: ApellidoPaterno  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: ApellidoMaterno  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: numero  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: dv  
+30.03.2015 09:42:21  => Date error : FechaEmisionResolucion=>2001-12-17T09:30:47Z  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: Nombres  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: ApellidoPaterno  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: ApellidoMaterno  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: CodigoPais  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: Prefijo  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: Numero  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: Anexo  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: numero  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: dv  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: numero  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: dv  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: GiroComercialSubOrganizacion  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: numero  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: dv  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: numero  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: dv  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: Nombres  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: ApellidoPaterno  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: ApellidoMaterno  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: Nombres  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: ApellidoPaterno  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: ApellidoMaterno  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: CodigoPais  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: Prefijo  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: Numero  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: Anexo  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: CodigoPais  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: Prefijo  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: Numero  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: Anexo  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: numero  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: dv  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: Nombres  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: ApellidoPaterno  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: ApellidoMaterno  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: Nombres  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: ApellidoPaterno  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: ApellidoMaterno  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: numero  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: dv  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: Nombres  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: ApellidoPaterno  
+30.03.2015 09:42:21  => validaArray error: Campo nao encontrado: ApellidoMaterno  
+30.03.2015 09:42:21  => Date error : FechaDocumentoComercial=>2001-12-17T09:30:47Z  
+30.03.2015 09:42:21  => Date error : FechaRecepcionMercancias=>2001-12-17T09:30:47Z  

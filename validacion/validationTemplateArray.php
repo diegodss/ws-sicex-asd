@@ -13,14 +13,15 @@
 class templateArray {
 		
 	public $fields;
-	public $servico;
+	public $service;
 	
 	public function __construct($param) {
-		$this->servico = $param;
-		templateArray::setTemplateArray($this->servico);
+		$this->service = $param;
+		templateArray::setTemplateArray($this->service);
+
 	}
-	public function setTemplateArray($servico){
-		require_once 'arrayTemplates/'.$servico.'.php';
+	public function setTemplateArray($service){
+		require_once 'arrayTemplates/'.$service.'.php';
 	 	$this->fields = $fields ;
 	}
 	public function getTemplateArray(){

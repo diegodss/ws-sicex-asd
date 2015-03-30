@@ -43,15 +43,19 @@ class io {
 	
 	function printLogFile() {	
 		$filename = io::getRunTimeId();
-			if  (file_exists("report/".$this->service . "-".$filename.".log")) {
-			$ponteiro = fopen ("report/".$this->service . "-".$filename.".log", "r");		
+
+		$filename = $_SERVER['DOCUMENT_ROOT'] . "/ws-sicex-asd/validacion/report/" . $this->service . "-" .$filename.".log" ;	
+	
+		
+			if  (file_exists($filename)) {
+			$ponteiro = fopen ($filename, "r");		
 			if ($ponteiro){
 				while (!feof ($ponteiro)) {
-			   	$linha = fgets($ponteiro, 4096);		   
+			   	$linha = $linha . fgets($ponteiro, 4096) . "<br>";		   
 				}
 			}
 			fclose ($ponteiro);
 			}
-			return '01'; //"report/".$filename.".log";
+			return $linha;
 		}
 }?>
