@@ -30,6 +30,7 @@ require_once '../../herramientas/print_r_reverse.php';
 	//if (!$reuslt) $v->printLogFile();
 
 
+// leitor de schemas
 
 
 

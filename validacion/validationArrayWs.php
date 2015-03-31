@@ -19,21 +19,28 @@ class arrayWs {
 	public function __construct($v) {	
 		$this->resultValidaArrWS = true;
 		$this->templateArray 	 = new templateArray($v->service);
+		
   	}
   	function validaTemplateArray($arrWs, $v){
   		
 		$optEcho = $this->optEcho;		
 		$totalFalse = 0;
 		arrayWs::_echo("<table border=1>", $optEcho) ;		
+		arrayWs::registerReceivedData($arrWs, $v->service);
   		foreach ($this->templateArray->getTemplateArray() as $field => $arrTypeField){
   			
   			arrayWs::_echo("<tr>", $optEcho) ;
-  			$valueWs = arrayWs::getValueFromArray($arrWs, $field);
+  			
+  			$existField = arrayWs::existFieldInArray($arrWs, $field);
+  			$valueWs 	= arrayWs::getValueFromArray($arrWs, $field);
+  			
+  			
 			arrayWs::_echo("<td>" .$field."</td>" , $optEcho) ;	  			
-			arrayWs::_echo("<td>" .$valueWs." &nbsp;</td>" , $optEcho) ;		
-  			$resultValidacion = $v->valida(  $field, $valueWs, $arrTypeField );  
+			arrayWs::_echo("<td>" . $valueWs." &nbsp;</td>" , $optEcho) ;		
+  			
+			$resultValidacion = $v->valida(  $field, $valueWs, $arrTypeField, $existField );  
 			if (!$resultValidacion) $totalFalse++;  					
-	  		arrayWs::_echo("<td>" .$resultValidacion." &nbsp;</td>" , $optEcho) ;	  		
+	  		arrayWs::_echo("<td>" . $v->formatResult($resultValidacion)." &nbsp;</td>" , $optEcho) ;	  		
   			arrayWs::_echo("</tr>", $optEcho) ;	  			
   		}
   		arrayWs::_echo("</table>", $optEcho) ;
@@ -55,7 +62,7 @@ class arrayWs {
 				$fields 		= $this->templateArray->getTemplateArray();	
 				$arrayLine   	= $this->templateArray->getLineByField($field);	
 				
-				$resultValidacion =  $v->valida(  $field, $value, $arrayLine  );
+				$resultValidacion =  $v->valida(  $field, $value, $arrayLine, true  );
 				arrayWs::_echo("<td>" .$value."</td>" , $optEcho) ;
 				arrayWs::_echo("<td>" .$resultValidacion."</td>" , $optEcho) ;	
 										
@@ -90,6 +97,23 @@ class arrayWs {
 	    }	  
 		return null;
 	}
+
+	public function existFieldInArray($arr, $item){	  
+		foreach ($arr as  $field => $value) { 
+	                       
+	    	if ( trim($field) == trim($item) ) {
+	            return true;
+	        }
+	        elseif(is_array($value)) {
+	            $r = arrayWs::getValueFromArray($value, $item);
+	            if($r !== null){
+	                return $r;
+	            }
+	        }           
+	    }	  
+		return null;
+	}
+	
 	function _echo($var, $opt) {
 		if ($opt == "1" ){
 			print_r ( $var );
@@ -98,6 +122,13 @@ class arrayWs {
   	public function setOptEcho($v){
   		$this->optEcho = $v;  		
   	}  	
+  	function registerReceivedData($arrWs, $s){
+  		
+  		$io = new io;
+  		$io->setService($s);
+  		$io->saveDataFileLog($arrWs, "Datos-Recebidos");
+  		
+  	}
 	
 }
 ?>

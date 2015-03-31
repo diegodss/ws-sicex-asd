@@ -1,0 +1,415 @@
+Array
+(
+    [Cabecera] => Array
+        (
+            [IdRuce] => 3423424234234
+            [FechaCreacionRuce] => 2001-12-17T09:30:47Z
+            [EstadoRuce] => b
+            [FechaEstadoRuce] => 2001-12-17T09:30:47Z
+            [CodigoMensaje] => d
+            [TransaccionId] => f
+            [NumeroVersion] => g
+            [Destinatario] => h
+            [Remitente] => i
+        )
+
+    [DocumentoIngreso] => Array
+        (
+            [CodigoPrestacion] => j
+            [NumeroDocumentoIngreso] => k
+            [FechaResolucion] => 2001-12-17T09:30:47Z
+            [IdTramiteSSPP] => m
+            [EstadoAnulacion] => n
+            [ObservacionDocumento] => o
+            [Url] => p
+            [NumeroItem] => q
+            [CodigoEvaluadorDocumentoIngreso] => r
+            [TipoSolicitud] => s
+            [FechaSolicitud] => 2001-12-17T09:30:47Z
+            [FechaDocumentoIngreso] => 2001-12-17T09:30:47Z
+            [IdSolicitud] => v
+            [ServiciosPublicosRelacionados] => x
+            [ValorTramite] => z
+            [EstadoSolicitud] => 1
+            [FechaReferencia] => 2001-12-17T09:30:47Z
+            [ActaRechazoImportacion] => ?3
+            [ActaInmovilizacionProductos] => ?4
+            [RequiereUsoYDisposicion] => ?5
+            [DocumentoIngresoSSPP] => ?6
+            [NumeroIdentificacion] => ?7
+            [Mercancia] => Array
+                (
+                    [NumeroTotalDeItems] => ?8
+                    [TotalBultos] => ?9
+                    [TotalPesoBruto] => ?1
+                    [IdentificacionDeBultos] => ?2
+                    [Item] => Array
+                        (
+                            [NumeroItem] => ?3
+                            [CodigoArancel] => ?4
+                            [ServiciosPublicosCompetentes] => ?5
+                            [UsoPrevisto] => ?6
+                            [CodigoPaisProduccion] => ?7
+                            [GlosaPaisProduccion] => ?89
+                            [ValorCIF] => ?1
+                            [MontoAjuste] => ?2
+                            [SignoDelAjuste] => 3
+                            [Cantidad] => 4
+                            [CodigoUnidadDeMedida] => ?5
+                            [CantidadDeMercanciasEstimada] => 1
+                            [PrecioUnitarioFOB] => ?7
+                            [CodigoArancelDelTratado] => ?8
+                            [NumeroCorrelativoArancel] => ?9
+                            [CodigoAcuerdoComercial] => ?1
+                            [SujetoACupo] => 1
+                            [PorcentajeAdvalorem] => ?3
+                            [CodigoCuentaAdvalorem] => ?4
+                            [MontoCuentaAdvalorem] => ?5
+                            [CaracteristicaEspecial] => ?6
+                            [PesoUnitario] => ?7
+                            [CodigoUnidadDeMedidaPesoUnitario] => 8
+                            [OtraDescripcion] => ?9
+                            [ObservacionOIG] => ?1
+                            [Lote] => ?2
+                            [NombreProductor] => ?3
+                            [CodigoArancelarioFinal] => ?4
+                            [MercadoDestino] => ?5
+                            [NumeroResolucionSubpesca] => ?6
+                            [PesoNeto] => ?7
+                            [PesoBruto] => ?8
+                            [DocumentosAdjuntos] => ?9
+                            [Direccionproductor] => ?1
+                            [CuarentenaPostFrontera] => ?2
+                            [NumeroAutorizacionExportacion] => ?3
+                            [NombreProducto] => ?4
+                            [EstadoCondicionProducto] => ?5
+                            [Observaciones] => ?6
+                            [EstadoItem] => ?7
+                            [CodigoPrestacion] => ?7
+                            [Producto] => Array
+                                (
+                                    [CodigoProducto] => ?8
+                                    [Atributo] => Array
+                                        (
+                                            [SecuenciaAtributo] => ?9
+                                            [NombreAtributo] => ?1
+                                            [ValorAtributo] => ?2
+                                            [EsFijo] => 0
+                                            [CodigoUnicoAtributo] => ?4
+                                        )
+
+                                )
+
+                            [Destino] => Array
+                                (
+                                    [CantidadVehiculo] => ?5
+                                    [Transporte] => Array
+                                        (
+                                            [PesoBruto] => ?6
+                                            [CantidadMercancia] => ?7
+                                            [MatriculaRemolque] => ?8
+                                            [Patente] => ?9
+                                            [PaisVehiculo] => ?1
+                                            [TaraCamion] => ?2
+                                            [TaraRemolque] => ?3
+                                            [FechaArribo] => 2001-12-17T09:30:47Z
+                                            [ViaDeTransporte] => ?5
+                                            [GlosaPuertoDeEmbarque] => ?6
+                                            [CodigoPuertoDeEmbarque] => 7
+                                            [CodigoDeTransbordo] => 8
+                                            [GlosaPuertoDeDesembarque] => ?9
+                                            [CodigoPuertoDeDesembarque] => ?1
+                                            [TipoDeCarga] => ?2
+                                            [NombreCompaniaTransporte] => ?3
+                                            [CodigoPaisCompaniaTransportadora] => ?4
+                                            [RutCompaniaTransportadora] => ?5
+                                            [NumeroDocumentoTransporte] => ?6
+                                            [FechaDocumentoTransporte] => 2001-12-17T09:30:47Z
+                                            [FechaEmbarque] => 2001-12-17T09:30:47Z
+                                            [FechaDesembarque] => 2001-12-17T09:30:47Z
+                                            [NombreNave] => ?1
+                                            [Ruta] => ?2
+                                            [TipoMedioTransporte] => ?3
+                                            [FechaEstimadaLlegada] => 2001-12-17T09:30:47Z
+                                            [NombreTransportista] => ?5
+                                            [TipoNombre] => ?6
+                                            [CodigoPaisProcedencia] => ?7
+                                            [RutTransportista] => ?8
+                                            [GlosaPaisProcedencia] => ?9
+                                            [OrigenDistintoMenorCincuenta] => ?1
+                                            [PaisDistintoMenorCincuenta] => ?2
+                                            [Transbordo] => Array
+                                                (
+                                                    [SecuencialTransbordo] => ?3
+                                                    [CodigoPuertoTransbordo] => ?4
+                                                    [GlosaPuertoTransbordo] => ?5
+                                                )
+
+                                            [Manifiesto] => Array
+                                                (
+                                                    [SecuencialManifiesto] => ?6
+                                                    [NumeroManifiesto] => ?7
+                                                    [FechaManifiesto] => 2001-12-17T09:30:47Z
+                                                )
+
+                                            [Emisor] => Array
+                                                (
+                                                    [NombreEmisor] => ?9
+                                                    [TipoNombre] => ?1
+                                                    [RutEmisor] => ?2
+                                                )
+
+                                        )
+
+                                    [InstalacionDestino] => Array
+                                        (
+                                            [NumeroDocumentoComercial] => ?3
+                                            [NombreInstalacionDestino] => ?4
+                                            [RegionInstalacionDestino] => ?5
+                                            [ComunaInstalacionDestino] => 6
+                                            [NumeroResolucionAutorizacion] => ?7
+                                            [FechaEmisionResolucion] => 2001-12-17T09:30:47Z
+                                            [EntidadEmisora] => ?9
+                                            [DireccionInstalacionDestino] => ?1
+                                            [OficinaSSPP] => ?2
+                                            [NombreDirectorTecnico] => ?3
+                                            [TipoNombre] => ?4
+                                            [CodigoInstalacionDestino] => ?5
+                                            [TelefonoInstalacionDestino] => ?6
+                                            [ContactoInstalacionDestino] => ?8
+                                            [TipoInstalacion] => ?8
+                                            [NombreFantasia] => ?9
+                                            [DocumentoResolucion] => ?1
+                                            [OigPropietario] => ?2
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [IdentificacionUsuario] => Array
+        (
+            [DatosOrganizacion] => Array
+                (
+                    [RutOrganizacion] => ?
+                    [NombreOrganizacion] => ?
+                    [DomicilioOrganizacion] => ?
+                    [GiroComercialOrganizacion] => ?
+                    [DatosSuborganizacion] => Array
+                        (
+                            [RutSubOrganizacion] => ?
+                            [NombreSubOrganizacion] => ?
+                            [DomicilioSubOrganizacion] => ?
+                            [GiroComercialSubOrganizacion] => ?
+                        )
+
+                )
+
+            [DatosUsuario] => Array
+                (
+                    [DatosUsuarioType] => ?
+                    [Perfil] => ?
+                    [NombreUsuario] => ?
+                )
+
+        )
+
+    [Declaracion] => Array
+        (
+            [NumeroIdentificacion] => ?
+            [CodigoAduana] => ?
+            [FechaAceptacion] => 2001-12-17T09:30:47Z
+            [NombreAduana] => ?
+            [CampoForm] => ?
+            [FechaDeVencimiento] => 2001-12-17T09:30:47Z
+            [CodigoTipoOperacion] => ?
+            [TipoDeIngreso] => ?
+            [NumeroEncriptado] => ?
+            [Estado] => ?
+            [UrlDin] => ?
+            [TipoDestinacion] => ?
+            [RegionIngreso] => ?
+            [MercanciaInscritaDescrita] => ?
+            [HojaAnexaVehiculoType] => Array
+                (
+                    [FechaEnvio] => 2001-12-17T09:30:47Z
+                    [TipoAccion] => ?
+                    [DocumentoAdjunto] => ?
+                    [FechaEstado] => 2001-12-17T09:30:47Z
+                    [Estado] => ?
+                )
+
+            [DespachadorType] => Array
+                (
+                    [CodigoDespachador] => ?
+                    [RutDespachador] => ?
+                    [NombreDespachador] => ?
+                    [TipoNombre] => ?
+                    [NombreContacto] => ?
+                    [TipoNombreContacto] => ?
+                    [NumeroTelefonoFijo] => ?
+                    [NumeroTelefonoMovil] => 9991010
+                    [EmailContacto] => ?
+                    [DireccionDespachador] => ?
+                    [ComunaDespachador] => ?
+                    [RegionDespachador] => ?
+                    [ClaveAccesoStlDespachador] => ?
+                    [EmailDespachador] => ?
+                )
+
+            [ImportadorType] => Array
+                (
+                    [RutImportador] => 16606043-5
+                    [NombreImportador] => Importadora Matriz
+                    [TipoNombre] => ?
+                    [DireccionImportador] => ?
+                    [ComunaImportador] => ?
+                    [TipoDocumentoIdentificacion] => ?
+                    [RegionImportador] => ?
+                    [NumeroTelefono] => ?
+                    [Email] => ?
+                    [ClaveAccesoStlImportador] => ?
+                    [RepresentanteLegal] => Array
+                        (
+                            [NombreRepresentanteLegal] => ?
+                            [TipoNombre] => ?
+                            [RutRepresentanteLegal] => ?
+                            [DireccionRepresentanteLegal] => ?
+                            [ComunaRepresentanteLegal] => ?
+                            [RegionRepresentanteLegal] => ?
+                        )
+
+                )
+
+            [ProrrogaType] => Array
+                (
+                    [NumeroProrroga] => ?
+                    [NumeroResolucion] => ?
+                    [FechaResolucion] => 2001-12-17T09:30:47Z
+                    [DiasSolicitados] => ?
+                    [DiasAutorizados] => ?
+                    [Causal] => ?
+                    [EstadoSolicitud] => ?
+                    [FechaSolicitud] => 2001-12-17T09:30:47Z
+                    [IdSolicitud] => ?
+                    [MotivoRechazo] => ?
+                    [TipoDocumento] => ?
+                    [DocumentoAdjunto] => ?
+                    [AduanaOtorgamiento] => ?
+                    [Observaciones] => ?
+                )
+
+            [InspeccionType] => Array
+                (
+                    [TipoDeInspeccion] => ?
+                    [ResultadoInspeccion] => ?
+                    [FechaResultadoInspeccion] => 2001-12-17T09:30:47Z
+                    [EstadoInspeccion] => ?
+                    [FechaMovimiento] => 2001-12-17T09:30:47Z
+                    [CodigoNuevoAforo] => ?
+                    [NumeroMic] => ?
+                    [FechaMic] => 2001-12-17T09:30:47Z
+                    [ObservacionInspeccion] => ?
+                    [TipoDeRetencion] => ?
+                    [Retencion] => ?
+                    [FechaInspeccion] => 2001-12-17T09:30:47Z
+                    [DetalleInspeccion] => ?
+                    [TipoDeInspeccionOIG] => ?
+                    [InstalacionDestino] => Array
+                        (
+                            [NumeroDocumentoComercial] => ?
+                            [NombreInstalacionDestino] => ?
+                            [RegionInstalacionDestino] => ?
+                            [ComunaInstalacionDestino] => 3
+                            [NumeroResolucionAutorizacion] => ?
+                            [FechaEmisionResolucion] => 2001-12-17T09:30:47Z
+                            [EntidadEmisora] => ?
+                            [DireccionInstalacionDestino] => ?
+                            [OficinaSSPP] => ?
+                            [NombreDirectorTecnico] => ?
+                            [TipoNombre] => ?
+                            [CodigoInstalacionDestino] => ?
+                            [TelefonoInstalacionDestino] => ?
+                            [ContactoInstalacionDestino] => ?
+                            [TipoInstalacion] => ?
+                            [NombreFantasia] => ?
+                            [DocumentoResolucion] => ?
+                            [OigPropietario] => ?
+                        )
+
+                )
+
+            [ZonaPrimariaType] => Array
+                (
+                    [FechaSalidaZonaPrimaria] => 2001-12-17T09:30:47Z
+                    [EstadoSalidaZonaPrimaria] => ?
+                    [TipoDocumento] => ?
+                    [NumeroDocumento] => ?
+                    [FechaDocumento] => 2001-12-17T09:30:47Z
+                    [Transporte] => Array
+                        (
+                            [PesoBruto] => ?
+                            [CantidadMercancia] => ?
+                            [MatriculaRemolque] => ?
+                            [Patente] => ?
+                            [PaisVehiculo] => ?
+                            [TaraCamion] => ?
+                            [TaraRemolque] => ?
+                            [FechaArribo] => 2001-12-17T09:30:47Z
+                            [ViaDeTransporte] => ?
+                            [GlosaPuertoDeEmbarque] => ?
+                            [CodigoPuertoDeEmbarque] => 3
+                            [CodigoDeTransbordo] => ?
+                            [GlosaPuertoDeDesembarque] => ?
+                            [CodigoPuertoDeDesembarque] => ?
+                            [TipoDeCarga] => ?
+                            [NombreCompaniaTransporte] => ?
+                            [CodigoPaisCompaniaTransportadora] => ?
+                            [RutCompaniaTransportadora] => ?
+                            [NumeroDocumentoTransporte] => ?
+                            [FechaDocumentoTransporte] => 2001-12-17T09:30:47Z
+                            [FechaEmbarque] => 2001-12-17T09:30:47Z
+                            [FechaDesembarque] => 2001-12-17T09:30:47Z
+                            [NombreNave] => ?
+                            [Ruta] => ?
+                            [TipoMedioTransporte] => ?
+                            [FechaEstimadaLlegada] => 2001-12-17T09:30:47Z
+                            [NombreTransportista] => ?
+                            [TipoNombre] => ?
+                            [CodigoPaisProcedencia] => ?
+                            [RutTransportista] => ?
+                            [GlosaPaisProcedencia] => ?
+                            [OrigenDistintoMenorCincuenta] => ?
+                            [PaisDistintoMenorCincuenta] => ?
+                            [Transbordo] => Array
+                                (
+                                    [SecuencialTransbordo] => ?
+                                    [CodigoPuertoTransbordo] => ?
+                                    [GlosaPuertoTransbordo] => ?
+                                )
+
+                            [Manifiesto] => Array
+                                (
+                                    [SecuencialManifiesto] => ?
+                                    [NumeroManifiesto] => ?
+                                    [FechaManifiesto] => 2001-12-17T09:30:47Z
+                                )
+
+                            [Emisor] => Array
+                                (
+                                    [NombreEmisor] => ?
+                                    [TipoNombre] => ?
+                                    [RutEmisor] => ?
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,5 +1,4 @@
 <?php 
-
 $fields = array(
 				'NumeroDocumentoIngreso'	=> array('50','xsd:string','SicexStringCinco','1'),	
 				'RutImportador' => array('8','aem:runType','SicexRut','1'),	
@@ -27,7 +26,7 @@ $fields = array(
 				'RutDespachador'	=> array('8','aem:runType','SicexRut','1'),	
 				'NombreContacto'	=> array('30','aem:nombreType','SicexNombres','1'),	
 				'NumeroTelefonoFijo'	=> array('50','aem:TelefonoType','SicexTelefono','0'),	
-				'NumeroTelefonoMóvil'	=> array('50','aem:TelefonoType','SicexTelefono','0'),	
+				'NumeroTelefonoMovil'	=> array('50','aem:TelefonoType','SicexTelefono','0'),	
 				'EmailContacto'	=> array('100','xsd:string','SicexStringSeis','0'),	
 				'DireccionImportador'	=> array('50','xsd:string','SicexStringCinco','1'),	
 				'ComunaImportador'	=> array('5','xsd:integer','SicexNumericoTres','1'),	
@@ -132,7 +131,7 @@ $fields = array(
 				'GlosaPuertoTransbordo'	=> array('15','xsd:string','SicexStringCuatro','1'),	
 				'SecuencialTransbordo'	=> array('2','xsd:integer','SicexNumericoDos','1'),	
 				'NombreConsignante'	=> array('30','aem:nombreType','SicexNombres','1'),	
-				'DirecciónConsignante'	=> array('50','xsd:string','SicexStringCinco','1'),	
+				'DireccionConsignante'	=> array('50','xsd:string','SicexStringCinco','1'),	
 				'CodigoPaisConsignante'	=> array('3','xsd:string','SicexStringDos','1'),	
 				'NumeroAutorizacionExportacion'	=> array('30','xsd:string','SicexStringCuatro','1'),	
 				'ServiciosPublicosRelacionados'	=> array('15','xsd:string','SicexStringCuatro','1'),	

@@ -13,10 +13,16 @@
 */
 class io {	
   public $service;
-  public function __construct() {	
+  public $path ;
+  
+  public function __construct() {
+  	$this->path = $_SERVER['DOCUMENT_ROOT'] . "/ws-sicex-asd/validacion/report/" ;	
   }
   public function setService($s) {
   	$this->service = $s;
+  }
+  public function getPath() {
+  	return  $_SERVER['DOCUMENT_ROOT'] . "/ws-sicex-asd/validacion/report/";
   }
   function save_log($parse) {
 	$year   = date('Y');
@@ -25,9 +31,9 @@ class io {
 	$hour   = date('h');		
 	$minute = date('i');
 	$second = date('s');
-	$filename = io::getRunTimeId();
+	$fileId = io::getRunTimeId();
 	$log = date('d.m.Y h:i:s')."  => ". $parse ."  \n"; 
-	error_log($log , 3, $_SERVER['DOCUMENT_ROOT'] . "/ws-sicex-asd/validacion/report/" . $this->service . "-" .$filename.".log" );	
+	error_log($log , 3, io::getPath() . $this->service . "-" .$fileId.".log" );	
 	}	
 
 	function getRunTimeId() {
@@ -43,9 +49,8 @@ class io {
 	
 	function printLogFile() {	
 		$filename = io::getRunTimeId();
-
-		$filename = $_SERVER['DOCUMENT_ROOT'] . "/ws-sicex-asd/validacion/report/" . $this->service . "-" .$filename.".log" ;	
-	
+		
+		$filename = io::getPath() . $this->service . "-" .$filename.".log" ;		
 		
 			if  (file_exists($filename)) {
 			$ponteiro = fopen ($filename, "r");		
@@ -56,6 +61,19 @@ class io {
 			}
 			fclose ($ponteiro);
 			}
-			return $linha;
+			return  $linha;
 		}
+		
+  function saveDataFileLog($parse, $fileName) {
+	$year   = date('Y');
+	$month  = date('m');
+	$day    = date('d');
+	$hour   = date('h');		
+	$minute = date('i');
+	$second = date('s');
+	$fileId = io::getRunTimeId();
+	$fileName = $fileName . "-".$fileId;
+	$log = print_r($parse, true);  ; 
+	error_log($log , 3, io::getPath() . $this->service . "-" .$fileName.".log" );	
+	}			
 }?>
