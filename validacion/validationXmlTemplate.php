@@ -3,8 +3,8 @@ class xmlTemplate extends arrayWs {
 
   public $array;
   public $resultValidaArrWS;
-  public function __construct() {
-    $xml   = simplexml_load_string( file_get_contents('arrayTemplates/xml.xml'));
+  public function __construct($file) {
+    $xml   = simplexml_load_string( file_get_contents('arrayTemplates/' . $file));
 	$array = xmlTemplate::XML2Array($xml);
 	$this->array = array($xml->getName() => $array);
 	$this->resultValidaArrWS = true;

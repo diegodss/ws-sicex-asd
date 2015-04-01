@@ -1,0 +1,303 @@
+<SCITRTR003Consulta xmlns="http://valida.aem.gob.cl" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:n1="http://www.altova.com/samplexml/other-namespace" SchemaVersion="1">
+						<Cabecera SchemaVersion="1">
+							<CodigoMensaje>M1.102</CodigoMensaje>
+							<TransaccionId>TRN201503310000072565</TransaccionId>
+							<NumeroVersion>0</NumeroVersion>
+							<Destinatario>ISP</Destinatario>
+							<Remitente>HACIENDA</Remitente>
+							<IdRuce>20150331IMPS0000016358</IdRuce>
+							<FechaCreacionRuce>
+								<fechaHoraValida>2015-03-31T11:36:09</fechaHoraValida>
+							</FechaCreacionRuce>
+							<EstadoRuce>Enviado</EstadoRuce>
+							<FechaEstadoRuce>
+								<fechaHoraValida>2015-03-31T11:38:59</fechaHoraValida>
+							</FechaEstadoRuce>
+						</Cabecera>
+						<DocumentoIngreso SchemaVersion="1">
+							<TipoSolicitud>101</TipoSolicitud>
+							<FechaSolicitud>
+								<fechaHoraValida>2015-03-31T11:39:22</fechaHoraValida>
+							</FechaSolicitud>
+							<IdSolicitud>DO201503310000000254</IdSolicitud>
+							<ServiciosPublicosRelacionados>ISP</ServiciosPublicosRelacionados>
+							<Mercancia SchemaVersion="1">
+								<TotalBultos>1</TotalBultos>
+								<IdentificacionDeBultos>identificacion</IdentificacionDeBultos>
+								<Item SchemaVersion="1">
+									<NumeroItem>1</NumeroItem>
+									<CodigoArancel>33072000</CodigoArancel>
+									<UsoPrevisto>15</UsoPrevisto>
+									<CodigoPaisProduccion>MX</CodigoPaisProduccion>
+									<Cantidad>504.83</Cantidad>
+									<CodigoUnidadDeMedida>6</CodigoUnidadDeMedida>
+									<CantidadDeMercanciasEstimada>false</CantidadDeMercanciasEstimada>
+									<SujetoACupo>false</SujetoACupo>
+									<NombreProductor>BEIERSDORF S.A.</NombreProductor>
+									<CodigoArancelarioFinal>33072000</CodigoArancelarioFinal>
+									<PesoNeto>504.83</PesoNeto>
+									<PesoBruto>0</PesoBruto>
+									<CuarentenaPostFrontera>false</CuarentenaPostFrontera>
+									<NombreProducto>NIVEA ROLL ON ANTITRANSPIRANTE ACLARADO NATURAL CLASSIC TOUCH </NombreProducto>
+									<Producto SchemaVersion="1">
+										<CodigoProducto>040000008414</CodigoProducto>
+										<Atributo SchemaVersion="1">
+											<SecuenciaAtributo>1</SecuenciaAtributo>
+											<NombreAtributo>NOMBRE (NOMBRE USUAL DEL PRODUCTO)</NombreAtributo>
+											<ValorAtributo>ANTITRANSPIRANTE</ValorAtributo>
+											<EsFijo>V</EsFijo>
+										</Atributo>
+										<Atributo SchemaVersion="1">
+											<SecuenciaAtributo>2</SecuenciaAtributo>
+											<NombreAtributo>CODIGO CIP</NombreAtributo>
+											<ValorAtributo>83700-06000-23</ValorAtributo>
+											<EsFijo>V</EsFijo>
+										</Atributo>
+										<Atributo SchemaVersion="1">
+											<SecuenciaAtributo>3</SecuenciaAtributo>
+											<NombreAtributo>ATRIBUTO 01 (MARCA, EN CASO DE NO EXISTIR, EMISOR DE FACTURA-F)</NombreAtributo>
+											<ValorAtributo>NIVEA DEO</ValorAtributo>
+											<EsFijo>V</EsFijo>
+										</Atributo>
+										<Atributo SchemaVersion="1">
+											<SecuenciaAtributo>4</SecuenciaAtributo>
+											<NombreAtributo>ATRIBUTO 02 (ESTADO FISICO: LIQUIDO, SOLIDO, GASEOSO)</NombreAtributo>
+											<ValorAtributo>DE 50 ML</ValorAtributo>
+											<EsFijo>V</EsFijo>
+										</Atributo>
+										<Atributo SchemaVersion="1">
+											<SecuenciaAtributo>5</SecuenciaAtributo>
+											<NombreAtributo>ATRIBUTO 03 (INFORMACION COMPLEMENTARIA) </NombreAtributo>
+											<ValorAtributo>info</ValorAtributo>
+											<EsFijo>V</EsFijo>
+										</Atributo>
+										<Atributo SchemaVersion="1">
+											<SecuenciaAtributo>9</SecuenciaAtributo>
+											<NombreAtributo>USO PREVISTO</NombreAtributo>
+											<ValorAtributo>USO HUMANO- COSMETICO</ValorAtributo>
+											<EsFijo>F</EsFijo>
+										</Atributo>
+										<Atributo SchemaVersion="1">
+											<SecuenciaAtributo>10</SecuenciaAtributo>
+											<NombreAtributo>TIPO PRODUCTO</NombreAtributo>
+											<ValorAtributo>COSMETICO DE HIGIENE, BAJO RIESGO U ODORIZANTE</ValorAtributo>
+											<EsFijo>F</EsFijo>
+										</Atributo>
+										<Atributo SchemaVersion="1">
+											<SecuenciaAtributo>11</SecuenciaAtributo>
+											<NombreAtributo>CATEGORIA DE PRODUCTO</NombreAtributo>
+											<ValorAtributo>CON REGISTRO SANITARIO</ValorAtributo>
+											<EsFijo>F</EsFijo>
+										</Atributo>
+										<Atributo SchemaVersion="1">
+											<SecuenciaAtributo>12</SecuenciaAtributo>
+											<NombreAtributo>RUT DEL TITULAR</NombreAtributo>
+											<ValorAtributo>93513000-K</ValorAtributo>
+											<EsFijo>F</EsFijo>
+										</Atributo>
+										<Atributo SchemaVersion="1">
+											<SecuenciaAtributo>13</SecuenciaAtributo>
+											<NombreAtributo>NOMBRE DEL TITULAR</NombreAtributo>
+											<ValorAtributo>BEIERSDORF S.A.</ValorAtributo>
+											<EsFijo>F</EsFijo>
+										</Atributo>
+										<Atributo SchemaVersion="1">
+											<SecuenciaAtributo>14</SecuenciaAtributo>
+											<NombreAtributo>NUMERO REGISTRO SANITARIO</NombreAtributo>
+											<ValorAtributo>111-D403555</ValorAtributo>
+											<EsFijo>F</EsFijo>
+										</Atributo>
+										<Atributo SchemaVersion="1">
+											<SecuenciaAtributo>15</SecuenciaAtributo>
+											<NombreAtributo>PAIS DE PRODUCCION</NombreAtributo>
+											<ValorAtributo>MEXICO</ValorAtributo>
+											<EsFijo>V</EsFijo>
+										</Atributo>
+										<Atributo SchemaVersion="1">
+											<SecuenciaAtributo>16</SecuenciaAtributo>
+											<NombreAtributo>NOMBRE PRODUCTOR</NombreAtributo>
+											<ValorAtributo>BEIERSDORF S.A.</ValorAtributo>
+											<EsFijo>V</EsFijo>
+										</Atributo>
+										<Atributo SchemaVersion="1">
+											<SecuenciaAtributo>17</SecuenciaAtributo>
+											<NombreAtributo>PAIS PROCEDENTE</NombreAtributo>
+											<ValorAtributo>MEXICO</ValorAtributo>
+											<EsFijo>V</EsFijo>
+										</Atributo>
+										<Atributo SchemaVersion="1">
+											<SecuenciaAtributo>18</SecuenciaAtributo>
+											<NombreAtributo>NOMBRE DEL PRODUCTO EN FACTURA</NombreAtributo>
+											<ValorAtributo>ANTITRANSPIRANTE</ValorAtributo>
+											<EsFijo>V</EsFijo>
+										</Atributo>
+										<Atributo SchemaVersion="1">
+											<SecuenciaAtributo>20</SecuenciaAtributo>
+											<NombreAtributo>REGIMEN DEL PRODUCTO</NombreAtributo>
+											<ValorAtributo>IMPORTADO TERMINADO</ValorAtributo>
+											<EsFijo>V</EsFijo>
+										</Atributo>
+										<Atributo SchemaVersion="1">
+											<SecuenciaAtributo>21</SecuenciaAtributo>
+											<NombreAtributo>CANTIDAD DE PRODUCTO</NombreAtributo>
+											<ValorAtributo>13536</ValorAtributo>
+											<EsFijo>V</EsFijo>
+										</Atributo>
+										<Atributo SchemaVersion="1">
+											<SecuenciaAtributo>22</SecuenciaAtributo>
+											<NombreAtributo>UNIDAD</NombreAtributo>
+											<ValorAtributo>UNIDADES</ValorAtributo>
+											<EsFijo>V</EsFijo>
+										</Atributo>
+									</Producto>
+									<OtroImpuesto SchemaVersion="1">
+										<SecuencialOtroImpuesto>1</SecuencialOtroImpuesto>
+									</OtroImpuesto>
+									<OtroImpuesto SchemaVersion="1">
+										<SecuencialOtroImpuesto>2</SecuencialOtroImpuesto>
+									</OtroImpuesto>
+									<OtroImpuesto SchemaVersion="1">
+										<SecuencialOtroImpuesto>3</SecuencialOtroImpuesto>
+									</OtroImpuesto>
+									<OtroImpuesto SchemaVersion="1">
+										<SecuencialOtroImpuesto>4</SecuencialOtroImpuesto>
+									</OtroImpuesto>
+									<Observacion SchemaVersion="1">
+										<SecuencialObservacion>1</SecuencialObservacion>
+									</Observacion>
+									<Observacion SchemaVersion="1">
+										<SecuencialObservacion>2</SecuencialObservacion>
+									</Observacion>
+									<Observacion SchemaVersion="1">
+										<SecuencialObservacion>3</SecuencialObservacion>
+									</Observacion>
+									<Observacion SchemaVersion="1">
+										<SecuencialObservacion>4</SecuencialObservacion>
+									</Observacion>
+									<EstablecimientoOrigen SchemaVersion="1">
+										<TipoNombre>P</TipoNombre>
+									</EstablecimientoOrigen>
+								</Item>
+							</Mercancia>
+							<Destino SchemaVersion="1">
+								<InstalacionDestino SchemaVersion="1">
+									<NombreInstalacionDestino>801</NombreInstalacionDestino>
+									<RegionInstalacionDestino>13</RegionInstalacionDestino>
+									<ComunaInstalacionDestino>13101</ComunaInstalacionDestino>
+									<FechaEmisionResolucion>
+										<fechaHoraValida>2001-12-17T00:00:00</fechaHoraValida>
+									</FechaEmisionResolucion>
+									<EntidadEmisora>Entidad Emisora</EntidadEmisora>
+									<DireccionInstalacionDestino>Calle 222 Santiago</DireccionInstalacionDestino>
+									<TipoNombre>P</TipoNombre>
+									<CodigoInstalacionDestino>COD0001</CodigoInstalacionDestino>
+									<TelefonoInstalacionDestino>
+										<SicexTelefono>
+											<Numero>6666777</Numero>
+										</SicexTelefono>
+									</TelefonoInstalacionDestino>
+									<ContactoInstalacionDestino>Nombre Contacto</ContactoInstalacionDestino>
+									<TipoInstalacion>LC</TipoInstalacion>
+								</InstalacionDestino>
+							</Destino>
+						</DocumentoIngreso>
+						<Declaracion SchemaVersion="1">
+							<CodigoAduana>14</CodigoAduana>
+							<CodigoTipoOperacion>101</CodigoTipoOperacion>
+							<TipoDestinacion>101</TipoDestinacion>
+							<RegionIngreso>02</RegionIngreso>
+							<Despachador SchemaVersion="1">
+								<CodigoDespachador>C36</CodigoDespachador>
+								<RutDespachador>
+									<SicexRut>
+										<numero>8514731</numero>
+										<dv>5</dv>
+									</SicexRut>
+								</RutDespachador>
+								<NombreDespachador>JUAN ARTURO ACEVEDO C�SPED</NombreDespachador>
+								<TipoNombre>P</TipoNombre>
+								<NombreContacto>JUAN ARTURO ACEVEDO C�SPED</NombreContacto>
+								<TipoNombreContacto>P</TipoNombreContacto>
+								<NumeroTelefonoFijo>
+									<SicexTelefono>
+										<Numero>23670898</Numero>
+									</SicexTelefono>
+								</NumeroTelefonoFijo>
+								<EmailContacto>agenciajac@adsltie.cl</EmailContacto>
+								<DireccionDespachador>MONJITAS, 527, SANTIAGO, SANTIAGO, REGION METROPOLITANA DE SANTIAGO, CHILE</DireccionDespachador>
+								<ComunaDespachador>11201</ComunaDespachador>
+								<RegionDespachador>02</RegionDespachador>
+								<EmailDespachador>
+									<SicexCorreoElectronico>jmanriquez@hacienda.gov.cl</SicexCorreoElectronico>
+								</EmailDespachador>
+							</Despachador>
+							<Importador SchemaVersion="1">
+								<RutImportador>
+									<SicexRut>
+										<numero>93513000</numero>
+										<dv>k</dv>
+									</SicexRut>
+								</RutImportador>
+								<NombreImportador>BEIERSDORF S.A.</NombreImportador>
+								<TipoNombre>P</TipoNombre>
+								<DireccionImportador>CAMINO LO ESPEJO 501, MAIPU</DireccionImportador>
+								<ComunaImportador>13119</ComunaImportador>
+								<RegionImportador>13</RegionImportador>
+								<NumeroTelefono>12345678</NumeroTelefono>
+								<Email>mail@importador.cl</Email>
+								<RepresentanteLegal SchemaVersion="1">
+									<NombreRepresentanteLegal>FELIPE JOSE CELIS MONTT</NombreRepresentanteLegal>
+									<TipoNombre>P</TipoNombre>
+									<DireccionRepresentanteLegal>direccion Rep Legal</DireccionRepresentanteLegal>
+									<ComunaRepresentanteLegal>11201</ComunaRepresentanteLegal>
+									<RegionRepresentanteLegal>02</RegionRepresentanteLegal>
+								</RepresentanteLegal>
+							</Importador>
+							<Consignante SchemaVersion="1">
+								<NombreConsignante>nombre consignante</NombreConsignante>
+								<TipoNombre>P</TipoNombre>
+								<DireccionConsignante>direccion consignante</DireccionConsignante>
+								<CodigoPaisConsignante>MX</CodigoPaisConsignante>
+								<RutConsignante>
+									<SicexRut>
+										<numero>33333333</numero>
+										<dv>3</dv>
+									</SicexRut>
+								</RutConsignante>
+								<TelefonoConsignante>
+									<SicexTelefono>
+										<Numero>12345678</Numero>
+									</SicexTelefono>
+								</TelefonoConsignante>
+								<EmailConsignante>
+									<SicexCorreoElectronico>mail@consignante.cl</SicexCorreoElectronico>
+								</EmailConsignante>
+							</Consignante>
+							<Origen SchemaVersion="1">
+								<CodigoPaisOrigen>AF</CodigoPaisOrigen>
+								<Transporte SchemaVersion="1">
+									<ViaDeTransporte>4</ViaDeTransporte>
+									<CodigoPuertoDeEmbarque>AFASH</CodigoPuertoDeEmbarque>
+									<CodigoPuertoDeDesembarque>CLAGN</CodigoPuertoDeDesembarque>
+									<NumeroDocumentoTransporte>1234</NumeroDocumentoTransporte>
+									<FechaDocumentoTransporte>
+										<fechaHoraValida>2015-03-13T00:00:00</fechaHoraValida>
+									</FechaDocumentoTransporte>
+									<CodigoPaisProcedencia>AF</CodigoPaisProcedencia>
+									<Transbordo SchemaVersion="1">
+										<SecuencialTransbordo>1</SecuencialTransbordo>
+										<CodigoPuertoTransbordo>AFASH</CodigoPuertoTransbordo>
+									</Transbordo>
+									<Transbordo SchemaVersion="1">
+										<SecuencialTransbordo>2</SecuencialTransbordo>
+										<CodigoPuertoTransbordo>AFBAG</CodigoPuertoTransbordo>
+									</Transbordo>
+								</Transporte>
+							</Origen>
+							<Almacenaje SchemaVersion="1">
+								<FechaRecepcionMercancias>
+									<fechaHoraValida>2015-03-13T00:00:00</fechaHoraValida>
+								</FechaRecepcionMercancias>
+							</Almacenaje>
+						</Declaracion>
+					</SCITRTR003Consulta>

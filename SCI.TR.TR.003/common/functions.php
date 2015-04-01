@@ -19,18 +19,18 @@ function insSolicitudCDA($arrWS)
 	require_once '../validacion/_packageValidation.php';
 
 	// Crear un objeto con la con las funciones de validaciones requiridas
-	$validator 		= new validation('SCITRTR003');
+	////$validator 		= new validation('SCITRTR003');
 	// Crea un objeto de recibir los datos de la declaración. Para hacer frente a un retorno de carro, una validación adecuada se implementa
-	$arrayValidator = new arrayWs($validator);
+	////$arrayValidator = new arrayWs($validator);
 	// Devuelve verdadero o falso. Si sólo hay un campo devuelve falso, todo regreso será entonces falsa.
-	$result 		= $arrayValidator->validaArrWS($arrWS, $validator);
+	/////$result 		= $arrayValidator->validaArrWS($arrWS, $validator);
 	
 	// El objeto transaction tiene que validar todos los estados de errores.
-	$transaction = new transaction;	
-	$transaction->validaParametrosEntrada($result);
+	////$transaction = new transaction;	
+	////$transaction->validaParametrosEntrada($result);
 	
-	$returnCod = $transaction->codigoMensaje;
-	$returnMsg = $transaction->glosaMensaje;
+	////$returnCod = $transaction->codigoMensaje;
+	////$returnMsg = $transaction->glosaMensaje;
 	
 	$retorno = array();
 	
@@ -51,9 +51,9 @@ function insSolicitudCDA($arrWS)
 	}
 
 	// Destroy objetos de la memoria 
-	unset($validator);
-	unset($arrayValidator);
-	unset($transaction);
+	////unset($validator);
+	////unset($arrayValidator);
+	////unset($transaction);
 	
 	return $retorno;
 }		

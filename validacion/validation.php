@@ -11,6 +11,7 @@
 class validation extends io {
 
 	public $service; 
+	public $vField;
 			
 	public function __construct($param) {		 	
 		$this->service = $param;
@@ -18,7 +19,7 @@ class validation extends io {
 	function valida ($vField,$vData, $arrayLine, $existField){
 		
 	global $maxlenght;
-	
+	$this->vField = $vField;	
 	$result = false ;
 	
 		If ( validation::validaArray( $arrayLine, $vField ) ) {
@@ -116,11 +117,6 @@ class validation extends io {
 	function validaMandatorio( $f, $d, $p, $existField ) {
 		
 		$result = true;
-
-	if ($f == "RazonReingreso" ) {
-		echo $f . "[".$p. "] =>" . $existField;
-	}
-	
 		if ( $p == 1 ){
 			if ( $existField ) {				
 				if ( !validation::validaNull($d) ){
@@ -200,26 +196,22 @@ class validation extends io {
 		return $result; 		
 	}
 	// === New Function ===
-	function validaRut($rut) {
-		$msgError = validation::validaMensage("rut");
-		$result = true;
-	    $rut=str_replace('.', '', $rut);
-	    /*
-	    if (preg_match('/^(\d{1,9})-((\d|k|K){1})$/',$rut,$d_rut)) {	    	
-	        $s=1;$r=$d_rut[1];
-	        for($m=0;$r!=0;$r/=10)$s=($s+$r%10*(9-$m++%6))%11;	       	       
-	        $result = chr($s?$s+47:75)==strtoupper($d_rut[2]);
-	    }	 
-	    if (!$result){
-        	io::save_log( $msgError . $rut  );	
-        }	
-        */
-	    return $result; 		
+	function validaRut($rut){
+		$msgError = validation::validaMensage("rut");				
+		$rurObj   = new rut;
+		$return   = $rurObj->validaRut($rut);
+		if($return){
+			return true;
+		}else{
+		   	io::save_log( $msgError . $rut . " => " . $this->vField );	
+		    return false;
+		}		
 	}
+	// === New Function ===
 	function validaMensage($msg) {
 		switch ($msg) {
 			case "length":
-				$msgDescription = "El tamaño es más grande que el permitido: ";
+				$msgDescription = "El tamano es mas grande que el permitido: ";
 			break;
 			case "null":
 				$msgDescription = "No hay datos: ";
